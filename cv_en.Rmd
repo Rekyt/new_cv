@@ -21,11 +21,6 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# Some stuff about me
-
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
 
 # Scientific Education
 
@@ -39,6 +34,7 @@ tribble(
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
+
 
 # Nobel Prizes
 
@@ -55,17 +51,21 @@ tribble(
   )
 ```
 
+
 # Scientific Supervision
 
 Master students supervision. Charlotte & Nathan.
 
+
 # Scientific Service
 
-Elected Lab council, peer reviews for XX and YY journals, conference organization (MEE), half-day workshop on Open Science. Organize sDiv lab meetings.
+Elected Lab council, peer reviews for XX and YY journals,reviewer for rOpenSci, conference organization (MEE), half-day workshop on Open Science CEFE R User Group. Organize sDiv lab meetings. PhD Advisory Committee.
+
 
 # Scientic Projects
 
 Active member of FREE CESAB group, GloNAF, Impacts CESAB group.
+
 
 # Scientific Contributions
 
@@ -90,9 +90,15 @@ Göttingen lab seminar, D2KAB workshop.
 
 ## Talks
 
+## Blogposts
+
+2 blogposts for rOpenSci. 1 blogspot for MEE.
+
+
 # Teaching
 
-Summary table. Year, Institution, Name of course, role, number of students
+Summary table. Year, Institution, Name of course, role, number of students.
+
 
 # Skills
 
