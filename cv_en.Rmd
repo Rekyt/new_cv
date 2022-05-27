@@ -10,7 +10,8 @@ email: "matthias.grenie@idiv.de"
 twitter: LeNematode
 github: Rekyt
 scholar: "fZ1_d7QAAAAJ"
-date: "`r format(Sys.time(), '%B %Y')`"
+researchgate: Matthias-Grenie
+date: "`r withr::with_locale(c(LC_TIME = 'en_US'), {format(Sys.time(), '%B %Y')})`"
 output: vitae::hyndman
 header-includes:
   \definecolor{headcolor}{HTML}{1E49BF}
@@ -27,28 +28,17 @@ library(vitae)
 ```{r}
 library(tibble)
 tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "PhD in Ecology", "2016-2020", "Montpellier University", "Montpellier, France",
+  c("Supervised by \\textbf{Dr. Cyrille Violle} and \\textbf{Pr. Françoiz Munoz}.",
+    "PhD title 'Outside the norm: deviation from ecological optimality and functional originality'"),
+  "MSc. in General Biology", "2013-2015", "École Normale Supérieure de Lyon", "Lyon, France",
+  c("6 months Internship with \\textbf{Dr. Bruno Hérault Ronce} in Kourou, French Guiana, France",
+    "6 months Internship with \\textbf{Dr. Ophélie Ronce} in Montpellier, France",
+    "4 months Internship with \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab in Bloomington, IN, USA"),
+  "Bsc. in General Biology", "2012-2013", "École Normale Supérieure de Lyon", "Lyon, France", NULL
 ) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
-
-
-# Nobel Prizes
-
-```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
-) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
-  )
+  detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
 ```
 
 
@@ -71,18 +61,27 @@ Active member of FREE CESAB group, GloNAF, Impacts CESAB group.
 
 ## Publications
 
-```{r}
+```{r published-papers}
 library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
-bibliography_entries("packages.bib") %>%
-  arrange(desc(author$family), issued)
+bibliography_entries("papers.bib") %>%
+  arrange(issued)
 ```
 
-## Preprints
+## Conference Proceedings
+
+```{r conf-proc}
+bibliography_entries("conference_proceedings.bib")
+```
 
 ## R Packages
 
-List of R packages, which are on CRAN, peer-reviewed, explanation
+* **`funrar`**computes functional originality indices central for CESAB FREE group analyses, [published paper], [CRAN link](https://cran.r-project.org/package=funrar), [GitHub link](https://github.com/Rekyt/funrar)
+* **`ecolottery`** simulates community assembly processes cleverly with both niche and neutral processes, [published paper], [CRAN link](https://cran.r-project.org/package=ecolottery), [GitHub link](https://github.com/frmunoz/ecolottery)
+* **`rtaxref`** accesses the French Taxonomic Referential (TAXREF) API, [GitHub link](https://github.com/Rekyt/rtaxref)
+* **`rromeo`** accesses the Sherpa/RoMEO API on Open Access journals, reviewed by rOpenSci, [CRAN link](https://cran.r-project.org/package=rromeo), [GitHub link](https://github.com/ropensci/rromeo)
+* **`fundiversity`** is a fast and modular package to compute functional diversity indices, [CRAN link](https://cran.r-project.org/package=fundiversity), [GitHub link](https://github.com/bisaloo/fundiversity)
+* **`funbiogeo`** helps to create functional biogeography workflows, developed in the context of the FREE CESAB group, [GitHub link](https://github.com/FRBCesab/funbiogeo)
+* Contributions to several biodiversity packages: [**`taxize`**](https://cran.r-project.org/package=taxize)
 
 ## Invited Talks
 
@@ -92,7 +91,9 @@ Göttingen lab seminar, D2KAB workshop.
 
 ## Blogposts
 
-2 blogposts for rOpenSci. 1 blogspot for MEE.
+```{r blogposts}
+bibliography_entries("blogposts.bib")
+```
 
 
 # Teaching
