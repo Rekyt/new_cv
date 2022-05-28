@@ -4,6 +4,7 @@ surname: Grenié
 position: "Postdoctoral Researcher"
 address: "German Centre for Integrative Biodversity Research (iDiv), Halle-Jena-Leipzig"
 phone: +49 341 9733176
+csl: proceedings-of-the-royal-society-b.csl
 orcid: 0000-0002-4659-7522
 www: rekyt.github.io
 email: "matthias.grenie@idiv.de"
@@ -12,7 +13,8 @@ github: Rekyt
 scholar: "fZ1_d7QAAAAJ"
 researchgate: Matthias-Grenie
 date: "`r withr::with_locale(c(LC_TIME = 'en_US'), {format(Sys.time(), '%B %Y')})`"
-output: vitae::hyndman
+output:
+  vitae::hyndman
 header-includes:
   \definecolor{headcolor}{HTML}{1E49BF}
 ---
@@ -25,22 +27,36 @@ library(vitae)
 
 # Scientific Education
 
-```{r}
+```{r acedemic-education}
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "PhD in Ecology", "2016-2020", "Montpellier University", "Montpellier, France",
+  "PhD in Ecology", "2016-2020", "CEFE, Montpellier University", "Montpellier, France",
   c("Supervised by \\textbf{Dr. Cyrille Violle} and \\textbf{Pr. Françoiz Munoz}.",
-    "PhD title 'Outside the norm: deviation from ecological optimality and functional originality'"),
-  "MSc. in General Biology", "2013-2015", "École Normale Supérieure de Lyon", "Lyon, France",
-  c("6 months Internship with \\textbf{Dr. Bruno Hérault Ronce} in Kourou, French Guiana, France",
-    "6 months Internship with \\textbf{Dr. Ophélie Ronce} in Montpellier, France",
-    "4 months Internship with \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab in Bloomington, IN, USA"),
+    "PhD title: 'Outside the norm: deviation from ecological optimality and functional originality'"),
+  "MSc. in General Biology", "2013-2015", "École Normale Supérieure de Lyon", "Lyon, France", NULL,
   "Bsc. in General Biology", "2012-2013", "École Normale Supérieure de Lyon", "Lyon, France", NULL
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
 ```
 
+# Academic Experience
+
+```{r academic-experience}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Postdoctoral Researcher", "Oct. 2020-\\textbf{now}", "German Center for Integrative Biodiversity Research iDiv / Leipzig University", "Leipzig, Germany",
+  c("Working with \\textbf{Dr. Marten Winter} on the functional biogegraphy of alien plants"),
+  "PhD Student", "2016-2020", "Montpellier University", "Montpellier, France", NULL,
+  "Master Intern", "Feb. 2015-June 2015", "EcoFOG", "Kourou, French Guiana, France",
+  "Supervised by \\textbf{Dr. Bruno Hérault} on intraspecific variability in tropical trees growth in function of functional traits",
+  "Master Intern", "Sept. 2014-Dec. 2014", "ISEM, University of Montpellier", "Montpellier, France",
+    "Supervised by \\textbf{Dr. Ophélie Ronce} on matrix population models",
+  "Master Intern", "Feb. 2014-July 2014", "Indiana University", "Bloomington, IN, USA",
+    "Supervised by \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab on trait motifs in the *Paramecium* complex"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
+```
 
 # Scientific Supervision
 
@@ -63,7 +79,10 @@ Active member of FREE CESAB group, GloNAF, Impacts CESAB group.
 
 ```{r published-papers}
 library(dplyr)
-bibliography_entries("papers.bib") %>%
+
+papers = bibliography_entries("papers.bib")
+
+papers %>%
   arrange(issued)
 ```
 
@@ -74,6 +93,15 @@ bibliography_entries("conference_proceedings.bib")
 ```
 
 ## R Packages
+
+          Name                      Description    Status
+-------------- -------------------------------- ---------
+`funrar`       computes functional originality  on GitHub
+`ecolottery`   bla                              test
+`rtaxref`      bla                              test
+`rromeo`       bla                              test
+`fundiversity` bla                              test
+`funbiogeo`    bla                              test
 
 * **`funrar`**computes functional originality indices central for CESAB FREE group analyses, [published paper], [CRAN link](https://cran.r-project.org/package=funrar), [GitHub link](https://github.com/Rekyt/funrar)
 * **`ecolottery`** simulates community assembly processes cleverly with both niche and neutral processes, [published paper], [CRAN link](https://cran.r-project.org/package=ecolottery), [GitHub link](https://github.com/frmunoz/ecolottery)
