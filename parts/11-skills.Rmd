@@ -1,0 +1,9 @@
+# Skills
+
+## Languages
+
+French, English, Spanish, German, Chinese, Japanese
+
+## Programming languages
+
+R practices, data visualization, spatial data, SQL, HPC, git + GitHub collaborative development.

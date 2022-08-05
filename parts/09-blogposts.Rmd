@@ -1,0 +1,5 @@
+## Blogposts
+
+```{r blogposts}
+bibliography_entries("bibliography/blogposts.bib")
+```

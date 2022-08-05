@@ -1,0 +1,11 @@
+## Conference Proceedings
+
+```{r conf-proc}
+bibliography_entries("bibliography/conference_proceedings.bib")
+```
+
+## Invited Talks
+
+Göttingen lab seminar, D2KAB workshop.
+
+## Talks
