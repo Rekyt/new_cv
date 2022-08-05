@@ -1,7 +1,9 @@
 ## Conference Proceedings
 
 ```{r conf-proc}
-bibliography_entries("bibliography/conference_proceedings.bib")
+bibliography_entries(
+  here::here("bibliography", "conference_proceedings.bib")
+)
 ```
 
 ## Invited Talks

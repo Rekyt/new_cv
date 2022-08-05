@@ -1,9 +1,12 @@
+
 ## Publications
 
 ```{r published-papers}
 library(dplyr)
 
-papers = bibliography_entries("bibliography/papers.bib")
+papers = bibliography_entries(
+  here::here("bibliography", "papers.bib")
+)
 
 papers %>%
   arrange(issued)
