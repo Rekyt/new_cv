@@ -14,4 +14,21 @@ papers %>%
 
 ## Preprints
 
-## Submitted Manuscripts
+```{r preprints}
+preprints = vitae::bibliography_entries(
+  here::here("bibliography", "preprints.bib")
+)
+
+preprints %>%
+  arrange(issued)
+```
+
+## Other Submitted Manuscripts
+
+```{r submitted}
+submitted = vitae::bibliography_entries(
+  here::here("bibliography", "submitted.bib")
+)
+
+submitted
+```

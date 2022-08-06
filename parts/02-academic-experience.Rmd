@@ -11,7 +11,7 @@ tribble(
   "Master Intern", "Sept. 2014-Dec. 2014", "ISEM, University of Montpellier", "Montpellier, France",
     "Supervised by \\textbf{Dr. Ophélie Ronce} on matrix population models",
   "Master Intern", "Feb. 2014-July 2014", "Indiana University", "Bloomington, IN, USA",
-    "Supervised by \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab on trait motifs in the *Paramecium* complex"
+    "Supervised by \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab on trait motifs in the \\textit{Paramecium} complex"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
 ```
