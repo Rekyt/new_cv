@@ -1,3 +1,17 @@
 # Scientific Service
 
-Elected Lab council, peer reviews for XX and YY journals,reviewer for rOpenSci, conference organization (MEE), half-day workshop on Open Science CEFE R User Group. Organize sDiv lab meetings. PhD Advisory Committee.
+```{r science-service}
+tibble::tribble(
+  ~what, ~when, ~with,
+  "Reviewer for Scientific Journals (\\href{https://publons.com/wos-op/researcher/1466931/matthias-grenie}{see Publons profile})", "2017-\\textbf{now}", "For \\textit{Ecology Letters}, \\textit{Functional Ecology}, \\textit{Biological Reviews}, \\textit{PeerJ}, \\textit{Biological Conservation}, and \\textit{Journal of Biogeography}",
+  "Software reviewer for rOpenSci", "2022-\\textbf{now}", "For the \\href{https://github.com/ropensci/software-review/issues/505}{\\texttt{npi} package}",
+  "Post-doctoral researchers representative", "2022-\\textbf{now}", "\\href{https://www.idiv.de/en/council.html}{\\textbf{iDiv Council}}, an advisory council of iDiv",
+  "Organizer of the biweekly sDiv lab meetings", "2021-\\textbf{now}",
+  "sDiv team",
+  "Member of PhD Advisory Committee of \\href{https://www.idiv.de/en/profile/1248.html}{\\textit{Rachel Souza Fereira}}", "2022-\\textbf{now}", "",
+  "Representative of PhD students in the CEFE lab council", "2018-2020", "CEFE lab council, the main governing body of the lab",
+  "Co-organizer of half-day workshop on Open Access Practices", "2018", "An event on how to make your articles accessible, organized for \\textasciitilde{}50 people of the CEFE in Montpellier",
+  "Co-organizer of Junior Conference \\href{https://web.archive.org/web/20180823012054/http://www.mee.univ-montp2.fr/editions-precedentes/edition-2017/organisateurs-2017/}{'Models in Ecology and Evolution'}", "2017", "A junior conference organized yearly in Montpellier with \\textasciitilde{}100 people attending from Masters to Post-docs"
+) %>%
+  vitae::brief_entries(what = what, when = when, with = with, .protect = FALSE)
+```

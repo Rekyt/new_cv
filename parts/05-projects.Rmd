@@ -1,4 +1,4 @@
-# Scientic Projects
+# Scientific Projects
 
 ```{r sci-projects}
 tibble::tribble(
