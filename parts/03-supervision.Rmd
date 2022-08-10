@@ -1,3 +1,11 @@
 # Scientific Supervision
 
-Master students supervision. Charlotte & Nathan.
+```{r supervision}
+tibble::tribble(
+  ~what, ~when, ~with,
+  "Supervised First year Master's Student Charlotte Guérineau", "Apr. 2018 - May 2018", "Internship on functional rarity of diverse taxonomic groups (birds, plants, fishes, and soil bacteria) over France",
+  "Co-supervised First year Master's Student Nathan Mazet", "Apr. 2019 - June 2019",
+  "Internship on global dietary strategies for birds, main supervisor: Jean-Yves Barnagaud"
+) %>%
+  vitae::brief_entries(what, when, with)
+```
