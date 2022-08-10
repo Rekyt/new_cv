@@ -8,9 +8,9 @@ I also founded the R User Group at the Center for Functional and Evolutionary Ec
 
 **Teaching detail**
 
-| Course Name | Year | Level | Total time |
-|-------------|------|-------|------------|
-| Descriptive Statistics with R (UM) | 2016/2017 | Bachelor’s (2nd yr) | 50h |
+| Course Name                  | Year(s) | Level          | Total time |
+|------------------------------|---------|----------------|------------|
+| Descriptive Statistics with R (UM)    | 2016/2017 | Bachelor’s (2nd yr) | 50h |
 | Functional Biogeography with R (UM, [material](https://github.com/Rekyt/functional_biogeo_practical)) | 2017/2018 | Master’s (2nd yr) | 8h |
 | Guest Lecture on Biodiversity Facets (UL) | 2021/2022 | Master's (1st yr) | 4h |
 | Biodiversity Facets with R (UL, [material](https://rekyt.github.io/biodiversity_facets_tutorial/)) | 2021/2022 | Master's (1st yr) | 12h |
