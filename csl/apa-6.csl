@@ -1320,10 +1320,10 @@
           </group>
         </else-if>
       </choose>
-      <text variable="annote" display="block" />
+      <text variable="annote" display="indent" />
     </layout>
   </citation>
-  <bibliography et-al-min="10" et-al-use-first="11" et-al-use-last="true">
+  <bibliography hanging-indent="true" et-al-min="10" et-al-use-first="11" et-al-use-last="true" entry-spacing="2" line-spacing="2">
     <sort>
       <key macro="issued-sort" sort="descending" />
       <key macro="author" />
@@ -1382,7 +1382,7 @@
           </group>
         </else-if>
       </choose>
-      <text variable="annote" display="block" />
+      <text variable="annote" display="indent" />
       <!-- The following line has been added by JooYoung Seo (jseo1005@illinois.edu) to display note field -->
       <text variable="note" font-style="italic" prefix=". " suffix="." />
     </layout>
