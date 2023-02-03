@@ -2,16 +2,16 @@
 
 ## Languages
 
-Level estimates are given following the [Common European Framework of Reference for Languages: Learning, Teaching, Assessment (CEFR)](https://www.coe.int/en/web/portfolio/self-assessment-grid)
+Level estimates are given following the [Common European Framework of Reference for Languages (CEFR)](https://www.coe.int/en/web/portfolio/self-assessment-grid)
 
-French [native speaker]; English [C2, fluent speaker]; Spanish [B1-B2]; German [A2]; Chinese [A2-B1]; Japanese [A2]
+French [native speaker]; English [C2, fluent speaker]; Spanish [B1-B2]; German [A2-B1]; Chinese [A2-B1]; Japanese [A2]
 
 
 ## Programming languages
 
-* \faRProject&nbsp;**R** language &nbsp;\textbullet&nbsp; Best Package Development Practices (`testthat` unit tests, `pkgdown` website, Continuous Integration/Continuous Deployment, submission to CRAN) &nbsp;\textbullet&nbsp; data visualization (advanced `ggplot2` and extension packages) &nbsp;\textbullet&nbsp; spatial data manipulation [`terra` rasters, `sf` vectors, and interactions]
-* \faDatabase&nbsp;**SQL** interaction with databases &nbsp;\textbullet&nbsp; high-performance query &nbsp;\textbullet&nbsp; interaction with `R`
-* \faServer&nbsp;**High Performance Computing** job submission on SLURM/SGE &nbsp;\textbullet&nbsp; complex array jobs running
+* \faRProject&nbsp;**R** language &nbsp;\textbullet&nbsp; Best Package Development Practices (`testthat` unit tests, `pkgdown` website, Continuous Integration/Continuous Deployment, submission to CRAN) &nbsp;\textbullet&nbsp; data visualization (advanced `ggplot2` and extension packages) &nbsp;\textbullet&nbsp; spatial data manipulation [`terra` rasters, `sf` vectors, PostGIS database, and interactions]
+* \faDatabase&nbsp;**SQL** interaction with databases &nbsp;\textbullet&nbsp; high-performance query &nbsp;\textbullet&nbsp; interaction with `R` &nbsp;\textbullet&nbsp; PostgreSQL/PostGIS spatial database
+* \faServer&nbsp;**High Performance Computing** job submission on SLURM/SGE &nbsp;\textbullet&nbsp; complex array jobs
 * \faGit&nbsp;version control &nbsp;\textbullet&nbsp; git flow framework &nbsp;\textbullet&nbsp; collaborative development through \faGithub&nbsp;GitHub
 * Basic knowledge of \faPython&nbsp;**Python** and **Julia**
 

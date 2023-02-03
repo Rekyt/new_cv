@@ -1,18 +1,21 @@
 
 ## Publications
 
-```{r published-papers}
-library(dplyr)
+### Accepted
 
-papers = bibliography_entries(
-  here::here("bibliography", "papers.bib")
+```{r accepted-papers}
+library("dplyr")
+
+accepted = bibliography_entries(
+  here::here("bibliography", "accepted.bib")
 )
 
-papers %>%
+accepted %>%
   arrange(issued)
+
 ```
 
-## Preprints
+### Preprints
 
 ```{r preprints}
 preprints = vitae::bibliography_entries(
@@ -23,12 +26,13 @@ preprints %>%
   arrange(issued)
 ```
 
-## Other Submitted Manuscripts
+### Published
 
-```{r submitted}
-submitted = vitae::bibliography_entries(
-  here::here("bibliography", "submitted.bib")
+```{r published-papers}
+papers = bibliography_entries(
+  here::here("bibliography", "papers.bib")
 )
 
-submitted
+papers %>%
+  arrange(issued)
 ```

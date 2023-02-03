@@ -21,4 +21,10 @@ tibble::tribble(
 
 ## Talks
 
-5 last given talks: BES Macro 2022, iDiv Conf, GloNAF meeting, GfÖ 2021, BES Macro 2021.
+```{r conferences-talks}
+here::here("bibliography", "conferences.csv") %>% 
+  read.csv() %>%
+  brief_entries(
+    conference_title, conference_date, conference_venue, .protect = FALSE
+  )
+```

@@ -49,7 +49,7 @@ library("dplyr")
 
 # Scientific Contributions
 
-\faFile*&nbsp;11 published articles. \faQuoteLeft&nbsp;323 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 R packages
+\faFile*&nbsp;14 publications (5 as first author). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 R packages
 
 ```{r child="parts/06-publications.Rmd"}
 ```
