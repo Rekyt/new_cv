@@ -52,7 +52,7 @@ what = package, when = date, with = language, where = "", why = details, .protec
 
 * **`fundiversity`** (co-creator and maintainer)
 \hfill\break a fast and modular package to compute functional diversity indices
-\hfill\break &nbsp;[\faFile*&nbsp;online preprint](https:////doi.org/10.32942/osf.io/dg7hw) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=fundiversity) -- [\faGithub&nbsp;GitHub](https://github.com/bisaloo/fundiversity)
+\hfill\break &nbsp;[\faFile*&nbsp;published paper](https:////doi.org/10.1111/ecog.06585) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=fundiversity) -- [\faGithub&nbsp;GitHub](https://github.com/bisaloo/fundiversity)
 
 * **`rromeo`** (co-creator and maintainer)
 \hfill\break accesses the [Sherpa/RoMEO API](https://v2.sherpa.ac.uk/romeo/) that indexes the open access policies of journals
