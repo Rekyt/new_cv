@@ -16,6 +16,7 @@ I also founded the R User Group at the Center for Functional and Evolutionary Ec
 | Biodiversity Facets with R (UL, [material](https://rekyt.github.io/biodiversity_facets_tutorial/)) | 2021/2022 | Master's (1st yr) | 12h |
 | Group project on Biodiversity Facets (UL) | 2021 | Master's (1st yr) | 20h |
 | Introduction to git and GitHub (UL/iDiv, [material](https://emilio-berti.github.io/idiv-git-introduction)) | 2022 | Masters, PhD students, and postdocs | 10h |
+| Workshop on Functional Diversity and Rarity, (\@CESAB, [material](https://frbcesab.github.io/workshop-free/)) | 2022 | Masters, PhD students, postdocs, & reseachers | 3.5h |
 | Guest Lecture on Taxonomic Harmonization [\@NFDI4Biodiversity Winter School on Data Management in Ecology and Evolution](https://www.nfdi4biodiversity.org/en/winterschool/) | 2022 | Masters, PhD students, and postdocs | 2h |
 
 UM: University of Montpellier; UL: University of Leipzig
