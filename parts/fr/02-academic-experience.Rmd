@@ -1,17 +1,19 @@
-# Academic Experience
+# Expérience Académique
 
 ```{r academic-experience}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Postdoctoral Researcher", "Oct. 2020-\\textbf{now}", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Germany",
-  c("Working with \\textbf{Dr. Marten Winter} on the functional biogegraphy of alien plants"),
-  "PhD Student", "2016-2020", "Montpellier University", "Montpellier, France", NULL,
-  "Master Intern", "Feb. 2015-June 2015", "EcoFOG", "Kourou, French Guiana, France",
-  "Supervised by \\textbf{Dr. Bruno Hérault} on intraspecific variability in tropical trees growth in function of functional traits",
-  "Master Intern", "Sept. 2014-Dec. 2014", "ISEM, University of Montpellier", "Montpellier, France",
-    "Supervised by \\textbf{Dr. Ophélie Ronce} on matrix population models",
-  "Master Intern", "Feb. 2014-July 2014", "Indiana University", "Bloomington, IN, USA",
-    "Supervised by \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab on trait motifs in the \\textit{Paramecium} complex"
+  "Chercheur Postdoctoral", "Octobre 2020 - \\textbf{présent}", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Allemagne",
+  c("Travail avec le \\textbf{Dr. Marten Winter} sur la biogéographie fonctionnelle des plantes introduites"),
+  "Thèse", "2016-2020", "Université de Montpellier", "Montpellier, France", "Directeurs: François Munoz & Cyrille Violle. Contrat doctoral spécifique normalien. Sur la rareté fonctionnelle et l'écologie fonctionnelle des communautés",
+  "Stage de Master 2", "Fév. 2015 - Juin 2015", "EcoFOG", "Kourou, Guyane Française, France",
+  "Encadrant: \\textbf{Dr. Bruno Hérault} sur la variabilité intraspécifique de croissance des arbres tropicaux en fonction de leurs traits fonctionnels",
+  "Stage de Master 2", "Sept. 2014 - Déc. 2014", "ISEM, Université de Montpellier", "Montpellier, France",
+    "Encadrante: \\textbf{Dr. Ophélie Ronce} sur la prédiction de l'adaptation au changement climatique des arbres en utilisant des modèles de génétique quantitative de populations structurées en stade",
+  "Stage de Master 2", "Fév. 2014 - Juillet 2014", "Indiana University", "Bloomington, IN, États-Unis",
+    "Encadrent: \\textbf{Dr. Jean-François Goût} dans l'équipe du \\textbf{Pr. Michael Lynch} sur les motifs génomiques au sein du complexe \\textit{Paramecium}",
+  "Stage de L3", "Juin 2013 - Août 2013", "Université Pierre et Marie Curie Paris 6", "Paris, France",
+  "Encadrants: \\textbf{Dr. Éric Bapteste} & \\textbf{Prof. Philippe Lopez} sur les relations de réseaux de similarités de séquences en fonction de l'origine évolutive des voies métaboliques"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
 ```

@@ -1,7 +1,7 @@
 ---
 name: Matthias
 surname: Grenié
-position: "Postdoctoral Researcher"
+position: "Chercheur Postdoctoral"
 address: "German Centre for Integrative Biodversity Research (iDiv), Halle-Jena-Leipzig"
 phone: +49 341 9733176
 csl: csl/apa-6.csl
@@ -12,7 +12,7 @@ twitter: LeNematode
 github: Rekyt
 scholar: "fZ1_d7QAAAAJ"
 researchgate: Matthias-Grenie
-date: "`r withr::with_locale(c(LC_TIME = 'en_US'), {format(Sys.time(), '%B %Y')})`"
+date: "`r withr::with_locale(c(LC_TIME = 'fr_FR'), {format(Sys.time(), '%B %Y')})`"
 output:
   vitae::hyndman:
     keep_tex: true
@@ -25,6 +25,8 @@ header-includes:
 ---
 
 ```{r setup, include=FALSE}
+Sys.setlocale(locale = "fr_FR")
+
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library("vitae")
 library("dplyr")

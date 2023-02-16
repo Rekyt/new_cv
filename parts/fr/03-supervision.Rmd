@@ -1,11 +1,11 @@
-# Scientific Supervision
+# Encadrement Scientifique
 
 ```{r supervision}
 tibble::tribble(
   ~what, ~when, ~with,
-  "Supervised First year Master's Student Charlotte Guérineau", "Apr. 2018 - May 2018", "Internship on functional rarity of diverse taxonomic groups (birds, plants, fishes, and soil bacteria) over France",
-  "Co-supervised First year Master's Student Nathan Mazet", "Apr. 2019 - June 2019",
-  "Internship on global dietary strategies for birds, main supervisor: Jean-Yves Barnagaud"
+  "Encadrement d'une étudiante de M1 Charlotte Guérineau", "Avril 2018 - Mai 2018", "Stage sur la rareté fonctionnelle de différents groupes taxonomiques (oiseaux, plantes, poissons, et bactéries du sol) en France",
+  "Co-supervision stage de M1 de Nathan Mazet", "Avril 2019 - Juin 2019",
+  "Stage sur les stratégies alimentaires des oiseaux à l'échelle globale, encadrant principal: Pr. Jean-Yves Barnagaud"
 ) %>%
   vitae::brief_entries(what, when, with)
 ```
