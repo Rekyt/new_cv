@@ -1,0 +1,71 @@
+---
+name: Matthias
+surname: Grenié
+position: "Postdoctoral Researcher"
+address: "German Centre for Integrative Biodversity Research (iDiv), Halle-Jena-Leipzig"
+phone: +49 341 9733176
+csl: csl/apa-6.csl
+orcid: 0000-0002-4659-7522
+www: rekyt.github.io
+email: "matthias.grenie@idiv.de"
+twitter: LeNematode
+github: Rekyt
+scholar: "fZ1_d7QAAAAJ"
+researchgate: Matthias-Grenie
+date: "`r withr::with_locale(c(LC_TIME = 'en_US'), {format(Sys.time(), '%B %Y')})`"
+output:
+  vitae::hyndman:
+    keep_tex: true
+    pandoc_args:
+      - --lua-filter="lua/strong.lua"
+header-includes:
+  - \definecolor{headcolor}{HTML}{1E49BF}
+  - \definecolor{linkscolor}{HTML}{026dbb}
+  - \hypersetup{colorlinks=true, linkcolor=linkscolor, filecolor=linkscolor, urlcolor=linkscolor, urlbordercolor=linkscolor}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library("vitae")
+library("dplyr")
+```
+
+
+```{r child="parts/fr/01-education.Rmd"}
+```
+
+```{r child="parts/fr/02-academic-experience.Rmd"}
+```
+
+```{r child="parts/fr/03-supervision.Rmd"}
+```
+
+```{r child="parts/fr/04-service.Rmd"}
+```
+
+```{r child="parts/fr/05-projects.Rmd"}
+```
+
+
+# Scientific Contributions
+
+\faFile*&nbsp;14 publications (5 as first author). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 R packages
+
+```{r child="parts/fr/06-publications.Rmd"}
+```
+
+```{r child="parts/fr/07-packages.Rmd"}
+```
+
+```{r child="parts/fr/08-conferences.Rmd"}
+```
+
+```{r child="parts/fr/09-blogposts.Rmd"}
+```
+
+```{r child="parts/fr/10-teaching.Rmd"}
+```
+
+```{r child="parts/fr/11-skills.Rmd"}
+```
+

@@ -1,0 +1,69 @@
+
+## R packages
+
+```{r pkg-brief, include=FALSE, echo=FALSE}
+paste_links = function(x) {
+  available_links = names(x)
+  
+  final = c()
+  if ("paper" %in% available_links) {
+    final = append(
+      final,
+      paste0("\\faFile*\\,[published paper](", x[["paper"]],")")
+    )
+  }
+  if ("cran" %in% available_links) {
+    final = append(
+      final,
+      paste0("\\faRProject  [on CRAN](", x[["cran"]], ")")
+    )
+  }
+  if ("github" %in% available_links) {
+    final = append(
+      final,
+      paste0("\\faGithub \\ [on GitHub](", x[["github"]], ")")
+    )
+  }
+  
+  paste0(final, collapse = ", ")
+}
+
+tibble::tribble(
+  ~ package, ~ date, ~ language, ~ role, ~ description, ~ links,
+  "funrar", "2016-now", "R", "main creator and maintainer", "computes functional originality indices central for CESAB FREE group analyses", c(paper = "https://doi.org/10.1111/ddi.12629", cran = "https://cran.r-project.org/package=funrar", github = "https://github.com/Rekyt/funrar")
+) %>%
+  rowwise() %>% 
+  mutate(
+    collated_links = paste_links(links),
+    details = lst(c(description, collated_links))
+  ) %>% 
+vitae::detailed_entries(
+what = package, when = date, with = language, where = "", why = details, .protect = FALSE
+)
+```
+
+* **`funrar`** (main creator and maintainer)
+\hfill\break computes functional originality indices central for CESAB FREE group analyses
+\hfill\break &nbsp;[\faFile*&nbsp;published paper](https://doi.org/10.1111/ddi.12629) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=funrar) -- [\faGithub&nbsp;GitHub](https://github.com/Rekyt/funrar)
+
+* **`ecolottery`** (co-creator)
+\hfill\break simulates community assembly processes cleverly with both niche and neutral processes
+\hfill\break &nbsp;[\faFile*&nbsp;published paper](https://doi.org/10.1111/2041-210X.12918) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=ecolottery) -- [\faGithub&nbsp;GitHub](https://github.com/frmunoz/ecolottery)
+
+* **`fundiversity`** (co-creator and maintainer)
+\hfill\break a fast and modular package to compute functional diversity indices
+\hfill\break &nbsp;[\faFile*&nbsp;published paper](https:////doi.org/10.1111/ecog.06585) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=fundiversity) -- [\faGithub&nbsp;GitHub](https://github.com/bisaloo/fundiversity)
+
+* **`rromeo`** (co-creator and maintainer)
+\hfill\break accesses the [Sherpa/RoMEO API](https://v2.sherpa.ac.uk/romeo/) that indexes the open access policies of journals
+\hfill\break&nbsp;[published by rOpenSci](https://docs.ropensci.org/rromeo) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=rromeo) -- [\faGithub&nbsp;GitHub](https://github.com/ropensci/rromeo)
+
+* **`funbiogeo`** (co-creator and maintainer)
+\hfill\break helps create functional biogeography workflows, developed in the context of the FREE CESAB group
+\hfill\break &nbsp;[\faGithub&nbsp;GitHub](https://github.com/FRBCesab/funbiogeo)
+
+* **`rtaxref`** (creator and maintainer)
+\hfill\break accesses the French Taxonomic Referential (TAXREF) API
+\hfill\break &nbsp;[\faGithub&nbsp;GitHub](https://github.com/Rekyt/rtaxref)
+
+* Significant contributions to other packages: [**`taxize`**](https://cran.r-project.org/package=taxize), [**`ggfortify`**](https://cran.r-project.org/package=ggfortify), and [**`traitdataform`**](https://cran.r-project.org/package=traitdataform)

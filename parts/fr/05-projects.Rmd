@@ -1,0 +1,13 @@
+# Scientific Projects
+
+```{r sci-projects}
+tibble::tribble(
+  ~Project, ~Period, ~Where, ~Why,
+  "\\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/free/}{\\textit{F}unctional \\textit{R}arity in \\textit{E}cology and \\textit{E}volution group} (FREE)", "2017-\\textbf{now}", "CESAB (French Biodiversity Synthesis Centre)", "Core member of the group as the developer of the \\texttt{funrar} package that computes functional rarity indices. Author of several core papers for the group. Led 3 papers attached to the work of the group.",
+  "\\href{https://glonaf.org/}{Global Naturalized Alien Flora} (GloNAF)", "2021-\\textbf{now}", "GloNAF", "Contributor to the regular meetings. Currently leading one article for the group.",
+  "\\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/impacts/}{IMPACTS group}", "2022-\\textbf{now}", "CESAB", "Scientific Contributor to the group. Co-head of data management for the group. First meeting November 2022."
+) %>% 
+  detailed_entries(
+    Project, Period, with = Where, where = "", why = Why, .protect = FALSE
+  )
+```
