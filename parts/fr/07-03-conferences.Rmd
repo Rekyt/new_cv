@@ -1,4 +1,4 @@
-## Conference Proceedings
+## Actes de Conférences
 
 ```{r conf-proc}
 bibliography_entries(
@@ -7,24 +7,30 @@ bibliography_entries(
 ```
 
 
-## Invited Talks
+## Présentations Invitées
 
 ```{r invited-talks}
 tibble::tribble(
   ~what, ~when, ~with,
-  "\\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft's regular lab seminar} on 'Navigating the landscape of taxonomic harmonization'", "December 2021", "University of Göttingen",
-  "Invited talk at the 3rd meeting of \\href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} on 'Taxonomic Databases of Plants and Animals'", "May 2022", "Paris/Online"
+  "Séminaire de l'équipe de \\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur le thème de 'Navigating the landscape of taxonomic harmonization'", "déc. 2021", "Université de Göttingen, Allemagne",
+  "Présentation invitée à la 3ème réunion de \\href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} sur 'Taxonomic Databases of Plants and Animals'", "mai 2022", "Paris/en visioconférence"
 ) %>%
   brief_entries(what, when, with, .protect = FALSE)
 ```
 
 
-## Talks
+## Présentations Orales
 
 ```{r conferences-talks}
 here::here("bibliography", "conferences.csv") %>% 
   read.csv() %>%
   {.[rev(rownames(.)),]} %>%  # Reverse rows to have most recent on top
+  mutate(
+    conference_date = lubridate::my(conference_date) %>%
+      {paste(
+        lubridate::month(., label = TRUE, abbr = TRUE), lubridate::year(.)
+      )}
+  ) %>%
   brief_entries(
     conference_title, conference_date, conference_venue, .protect = FALSE
   )

@@ -1,6 +1,6 @@
 # Participation à des projets scientifiques
 
-```{r sci-projects}
+```{r scientific-projects}
 tibble::tribble(
   ~Project, ~Period, ~Where, ~Why,
   "Groupe \\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/impacts/}{IMPACTS}", "2022-\\textbf{présent}", "CESAB", "Groupe de synthèse sur le suivi temporel de la biodiversité terrestre en France. Membre co-fondateur du groupe, en charge de la gestion de données pour le group. Première réunion en présentiel en mars 2023.",

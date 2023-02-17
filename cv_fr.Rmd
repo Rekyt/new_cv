@@ -17,6 +17,9 @@ output:
   vitae::hyndman:
     keep_tex: true
     pandoc_args:
+      # - +RTS
+      # - -M4096m
+      # - -RTS
       - --lua-filter="lua/strong.lua"
 header-includes:
   - \definecolor{headcolor}{HTML}{1E49BF}
@@ -38,6 +41,8 @@ library("dplyr")
 
 ```{r child="parts/fr/02-academic-experience.Rmd"}
 ```
+
+\newpage
 
 ```{r child="parts/fr/03-supervision.Rmd"}
 ```

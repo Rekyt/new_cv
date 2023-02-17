@@ -12,9 +12,11 @@ if_accepted_non_zero = nrow(accepted) > 0
 ```
 
 ```{r accepted-papers, eval = if_accepted_non_zero}
-library("dplyr")
+accepted_title = "### Acceptées"
 
-knitr::asis_output("### Acceptées")
+if (nrow(accepteds) == 1) accepted_title = "### Acceptée"
+
+knitr::asis_output(accepted_title)
 
 accepted %>%
   arrange(issued)
@@ -47,7 +49,11 @@ if_preprints_non_zero = nrow(preprints) > 0
 
 ```{r preprints, eval = if_preprints_non_zero}
 
-knitr::asis_output("### Pré-publications")
+preprint_title = "### Pré-publications"
+
+if (nrow(preprints) == 1) preprint_title = "### Pré-publication"
+
+knitr::asis_output(preprint_title)
 
 preprints %>%
   arrange(issued)

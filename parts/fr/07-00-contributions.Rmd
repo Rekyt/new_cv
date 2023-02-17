@@ -2,14 +2,14 @@
 
 \faFile*&nbsp;14 publications (5 en premier auteur). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 paquets R
 
-```{r all-papers, child=here::here("parts", "fr", "07-01-publications.Rmd")}
+```{r child="07-01-publications.Rmd"}
 ```
 
-```{r all-packages, child=here::here("parts", "fr", "07-02-packages.Rmd")}
+```{r child="07-02-packages.Rmd"}
 ```
 
-```{r all-conferences, child=here::here("parts", "fr", "07-03-conferences.Rmd")}
+```{r child="07-03-conferences.Rmd"}
 ```
 
-```{r all-blogposts, child=here::here("parts", "fr", "07-04-blogposts.Rmd")}
+```{r child="07-04-blogposts.Rmd"}
 ```
