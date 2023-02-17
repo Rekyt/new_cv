@@ -1,21 +1,26 @@
-# Skills
+# Compétences
 
-## Languages
+## Langues
 
-Level estimates are given following the [Common European Framework of Reference for Languages (CEFR)](https://www.coe.int/en/web/portfolio/self-assessment-grid)
-
-French [native speaker]; English [C2, fluent speaker]; Spanish [B1-B2]; German [A2-B1]; Chinese [A2-B1]; Japanese [A2]
+français [natif]; anglais [C2, courant et scientifique]; espagnol [B1-B2, quotidien]; allemand [A2-B1]; chinois [A2-B1]; japonais [A2]
 
 
-## Programming languages
+## Languages de Programmation et Informatique
 
-* \faRProject&nbsp;**R** language &nbsp;\textbullet&nbsp; Best Package Development Practices (`testthat` unit tests, `pkgdown` website, Continuous Integration/Continuous Deployment, submission to CRAN) &nbsp;\textbullet&nbsp; data visualization (advanced `ggplot2` and extension packages) &nbsp;\textbullet&nbsp; spatial data manipulation [`terra` rasters, `sf` vectors, PostGIS database, and interactions]
-* \faDatabase&nbsp;**SQL** interaction with databases &nbsp;\textbullet&nbsp; high-performance query &nbsp;\textbullet&nbsp; interaction with `R` &nbsp;\textbullet&nbsp; PostgreSQL/PostGIS spatial database
-* \faServer&nbsp;**High Performance Computing** job submission on SLURM/SGE &nbsp;\textbullet&nbsp; complex array jobs
-* \faGit&nbsp;version control &nbsp;\textbullet&nbsp; git flow framework &nbsp;\textbullet&nbsp; collaborative development through \faGithub&nbsp;GitHub
-* Basic knowledge of \faPython&nbsp;**Python** and **Julia**
+* \faRProject&nbsp;**R** &nbsp;\textbullet&nbsp; Meilleures pratiques de développement logiciel (tests unitaires avec`testthat`, site web `pkgdown`, intégration continue/déploiement continu, soumission au CRAN) &nbsp;\textbullet&nbsp; visualisation de données (`ggplot2` avancé et extensions) &nbsp;\textbullet&nbsp; manipulation de données spatiales [rasters `terra`, vecteurs `sf`, base de données PostGIS, et interactions]
+* \faDatabase&nbsp;**SQL** interaction avec des bases de données &nbsp;\textbullet&nbsp; requêtes haute performance &nbsp;\textbullet&nbsp; interaction avec `R` &nbsp;\textbullet&nbsp; base de données spatiale PostgreSQL/PostGIS
+* \faServer&nbsp;**Calcul de Haute Performance** soumission de *job* sur SLURM/SGE &nbsp;\textbullet&nbsp; requêtes complexes
+* \faGit&nbsp;contrôle de version &nbsp;\textbullet&nbsp; méthode git flow &nbsp;\textbullet&nbsp; développement collaboratif grâce à \faGithub&nbsp;GitHub
+* Connaissances de base de \faPython&nbsp;**Python** et **Julia**
 
 
-## Other
+## Statistiques et modélisation
+
+* Modèles nuls et de permutations pour la biodiversité
+* Modèles mixtes généralisés
+* *Machine Learning*/*Artificial Intelligence*: *Random Forest*, *Support Vector Machine*
+* Modélisation de population structurées en stade, modèle de Lotka-Volterra *via* Mathematica
+
+## Autres
 
 Digital Photography, Film Photography, Hiking
