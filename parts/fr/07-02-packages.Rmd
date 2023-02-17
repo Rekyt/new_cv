@@ -1,5 +1,4 @@
-
-## R packages
+## Paquets R
 
 ```{r pkg-brief, include=FALSE, echo=FALSE}
 paste_links = function(x) {
@@ -30,7 +29,7 @@ paste_links = function(x) {
 
 tibble::tribble(
   ~ package, ~ date, ~ language, ~ role, ~ description, ~ links,
-  "funrar", "2016-now", "R", "main creator and maintainer", "computes functional originality indices central for CESAB FREE group analyses", c(paper = "https://doi.org/10.1111/ddi.12629", cran = "https://cran.r-project.org/package=funrar", github = "https://github.com/Rekyt/funrar")
+  "funrar", "2016-présent", "R", "auteur principal et mainteneur", "calcul d'indices de rareté fonctionnelle, central pour les travaux du groupe CESAB FREE", c(paper = "https://doi.org/10.1111/ddi.12629", cran = "https://cran.r-project.org/package=funrar", github = "https://github.com/Rekyt/funrar")
 ) %>%
   rowwise() %>% 
   mutate(
@@ -44,7 +43,7 @@ what = package, when = date, with = language, where = "", why = details, .protec
 
 * **`funrar`** (main creator and maintainer)
 \hfill\break computes functional originality indices central for CESAB FREE group analyses
-\hfill\break &nbsp;[\faFile*&nbsp;published paper](https://doi.org/10.1111/ddi.12629) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=funrar) -- [\faGithub&nbsp;GitHub](https://github.com/Rekyt/funrar)
+\hfill\break &nbsp;[\faFile*&nbsp; article publié](https://doi.org/10.1111/ddi.12629) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=funrar) -- [\faGithub&nbsp;GitHub](https://github.com/Rekyt/funrar)
 
 * **`ecolottery`** (co-creator)
 \hfill\break simulates community assembly processes cleverly with both niche and neutral processes

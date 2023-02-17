@@ -1,17 +1,18 @@
-# Scientific Service
+# Activités d'organisation et responsabilités collectives
 
 ```{r science-service}
 tibble::tribble(
   ~what, ~when, ~with,
-  "Reviewer for Scientific Journals (\\href{https://publons.com/wos-op/researcher/1466931/matthias-grenie}{see Publons profile})", "2017-\\textbf{now}", "For \\textit{Ecology Letters}, \\textit{Functional Ecology}, \\textit{Biological Reviews}, \\textit{PeerJ}, \\textit{Biological Conservation}, and \\textit{Journal of Biogeography}",
-  "Software reviewer for rOpenSci", "2022-\\textbf{now}", "For the \\href{https://github.com/ropensci/software-review/issues/505}{\\texttt{npi} package}",
-  "Post-doctoral researchers representative", "2022-\\textbf{now}", "\\href{https://www.idiv.de/en/council.html}{\\textbf{iDiv Council}}, an advisory council of iDiv",
-  "Organizer of the biweekly sDiv lab meetings", "2021-\\textbf{now}",
-  "sDiv team",
-  "Member of PhD Advisory Committee of \\href{https://www.idiv.de/en/profile/1248.html}{\\textit{Rachel Souza Fereira}}", "2022-\\textbf{now}", "",
-  "Representative of PhD students in the CEFE lab council", "2018-2020", "CEFE lab council, the main governing body of the lab",
-  "Co-organizer of half-day workshop on Open Access Practices", "2018", "An event on how to make your articles accessible, organized for \\textasciitilde{}50 people of the CEFE in Montpellier",
-  "Co-organizer of Junior Conference \\href{https://web.archive.org/web/20180823012054/http://www.mee.univ-montp2.fr/editions-precedentes/edition-2017/organisateurs-2017/}{'Models in Ecology and Evolution'}", "2017", "A junior conference organized yearly in Montpellier with \\textasciitilde{}100 people attending from Masters to Post-docs"
+  "Relecteur de logiciel scientifique pour rOpenSci", "2022-\\textbf{présent}", "Pour le paquet \\href{https://github.com/ropensci/software-review/issues/505}{\\texttt{npi}}",
+  "Co-fondateur et animateur de \\textit{iCode}", "2022-\\textbf{présent}", "Groupe d'animation et d'entraide (forum d'échanges, séminaires) sur R et la programmation à iDiv",
+  "Représentant des post-doctorant⋅es (130 personnes)", "2022-\\textbf{présent}", "Au \\href{https://www.idiv.de/en/council.html}{\\textbf{conseil de laboratoire d'iDiv}}, équivalent du conseil d'UMR",
+  "Organisateur des séminaires de l'équipe sDiv", "2021-\\textbf{présent}",
+  "toutes les deux semaines",
+  "Représentant des Doctorant⋅es (70 personnes)", "2018-2020", "Conseil d'UMR du CEFE",
+  "Co-organisateur d'un atelier sur les pratiques d'\\textit{Open Access}", "2018", "Un événement d'une demi-journée pour apprendre à rendre nos articles accessibles, pour \\textasciitilde{}50 personnes au CEFE à Montpellier",
+  "Relecteur de journaux scientifiques (\\href{https://publons.com/wos-op/researcher/1466931/matthias-grenie}{voir le profil Publons})", "2017-\\textbf{présent}", "Pour \\textit{Ecology Letters}, \\textit{Functional Ecology}, \\textit{Biological Reviews}, \\textit{PeerJ}, \\textit{Biological Conservation}, \\textit{New Phytologist}, \\textit{Journal of Applied Ecology}, et \\textit{Journal of Biogeography}",
+  "Co-organisateur de la conférence Jeune Chercheur⋅euses \\href{https://web.archive.org/web/20180823012054/http://www.mee.univ-montp2.fr/editions-precedentes/edition-2017/organisateurs-2017/}{'Models in Ecology and Evolution'}", "2017", "Une conférence annuelle pour jeunes chercheur⋅euses avec un public de \\textasciitilde{}100 personnes du Master au Post-doctorat",
+  "Fondateur et animateur du groupe d'utilisateur⋅rices de R au CEFE", "2016-2020", "Animation mensuelle pour les personnes utilisant R au CEFE, incluant présentations et ateliers pratiques"
 ) %>%
   vitae::brief_entries(what = what, when = when, with = with, .protect = FALSE)
 ```

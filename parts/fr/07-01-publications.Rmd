@@ -1,6 +1,4 @@
-
 ## Publications
-
 
 <!-- Accepted -->
 
@@ -16,11 +14,23 @@ if_accepted_non_zero = nrow(accepted) > 0
 ```{r accepted-papers, eval = if_accepted_non_zero}
 library("dplyr")
 
-knitr::asis_output("### Accepted")
+knitr::asis_output("### Acceptées")
 
 accepted %>%
   arrange(issued)
 
+```
+
+
+### Publiées
+
+```{r published-papers}
+published = bibliography_entries(
+  here::here("bibliography", "papers.bib")
+)
+
+published %>%
+  arrange(issued)
 ```
 
 
@@ -34,21 +44,11 @@ preprints = vitae::bibliography_entries(
 if_preprints_non_zero = nrow(preprints) > 0
 ```
 
+
 ```{r preprints, eval = if_preprints_non_zero}
 
-knitr::asis_output("### Preprints")
+knitr::asis_output("### Pré-publications")
 
 preprints %>%
-  arrange(issued)
-```
-
-### Published
-
-```{r published-papers}
-published = bibliography_entries(
-  here::here("bibliography", "papers.bib")
-)
-
-published %>%
   arrange(issued)
 ```
