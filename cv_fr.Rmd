@@ -36,35 +36,35 @@ library("dplyr")
 ```
 
 
-```{r child="parts/fr/01-education.Rmd"}
+```{r child-education, child="parts/fr/01-education.Rmd"}
 ```
 
-```{r child="parts/fr/02-academic-experience.Rmd"}
+```{r child-experience, child="parts/fr/02-academic-experience.Rmd"}
 ```
 
 \newpage
 
-```{r child="parts/fr/03-supervision.Rmd"}
+```{r child-supervision, child="parts/fr/03-supervision.Rmd"}
 ```
 
-```{r child="parts/fr/04-service.Rmd"}
+```{r child-service, child="parts/fr/04-service.Rmd"}
 ```
 
-```{r child="parts/fr/05-projects.Rmd"}
+```{r child-projects, child="parts/fr/05-projects.Rmd"}
 ```
 
 
-```{r child="parts/fr/06-funding.Rmd"}
-
-```
-
-```{r child="parts/fr/07-00-contributions.Rmd"}
+```{r child-funding, child="parts/fr/06-funding.Rmd"}
 
 ```
 
-```{r child="parts/fr/08-teaching.Rmd"}
+```{r child-contributions, child="parts/fr/07-00-contributions.Rmd"}
+
 ```
 
-```{r child="parts/fr/09-skills.Rmd"}
+```{r child-teaching, child="parts/fr/08-teaching.Rmd"}
+```
+
+```{r child-skills, child="parts/fr/09-skills.Rmd"}
 ```
 
