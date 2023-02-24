@@ -1,0 +1,806 @@
+%% Template for a CV
+%% Author: Rob J Hyndman
+
+\documentclass[10pt,a4paper,]{article}
+\usepackage[scaled=0.86]{DejaVuSansMono}
+\usepackage[sfdefault,lf,t]{carlito}
+
+% Change color to blue
+\usepackage{color,xcolor}
+\definecolor{headcolor}{HTML}{990000}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true,hidelinks]{hyperref}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{geometry}
+\geometry{left=1.75cm,right=1.75cm,top=2.2cm,bottom=2cm}
+
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\date{fvrier 2023}
+
+\definecolor{headcolor}{HTML}{1E49BF}
+\definecolor{linkscolor}{HTML}{026dbb}
+\hypersetup{colorlinks=true, linkcolor=linkscolor, filecolor=linkscolor, urlcolor=linkscolor, urlbordercolor=linkscolor}
+
+\usepackage{paralist,ragged2e,datetime}
+\usepackage[hyphens]{url}
+\usepackage{fancyhdr,enumitem,pifont}
+\usepackage[compact,small,sf,bf]{titlesec}
+
+\RaggedRight
+\sloppy
+
+% Header and footer
+\pagestyle{fancy}
+\makeatletter
+\lhead{\sf\textcolor[gray]{0.4}{Curriculum Vitae: \@name}}
+\rhead{\sf\textcolor[gray]{0.4}{\thepage}}
+\cfoot{}
+\def\headrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip-\headrulewidth}}
+\makeatother
+
+% Header box
+\usepackage{tabularx}
+
+\makeatletter
+\def\name#1{\def\@name{#1}}
+\def\info#1{\def\@info{#1}}
+\makeatother
+\newcommand{\shadebox}[3][.9]{\fcolorbox[gray]{0}{#1}{\parbox{#2}{#3}}}
+
+\usepackage{calc}
+\newlength{\headerboxwidth}
+\setlength{\headerboxwidth}{\textwidth}
+%\addtolength{\headerboxwidth}{0.2cm}
+\makeatletter
+\def\maketitle{
+\thispagestyle{plain}
+\vspace*{-1.4cm}
+\shadebox[0.9]{\headerboxwidth}{\sf\color{headcolor}\hfil
+\hbox to 0.98\textwidth{\begin{tabular}{l}
+\\[-0.3cm]
+\LARGE\textbf{\@name}
+\\[0.1cm]\large Chercheur Postdoctoral\\[0.6cm]
+\normalsize\textbf{Curriculum Vitae}\\
+\normalsize fvrier 2023
+\end{tabular}
+\hfill\hbox{\fontsize{9}{12}\sf
+\begin{tabular}{@{}rl@{}}
+\@info
+\end{tabular}}}\hfil
+}
+\vspace*{0.2cm}}
+\makeatother
+
+% Section headings
+\titlelabel{}
+\titlespacing{\section}{0pt}{1.5ex}{0.5ex}
+\titleformat*{\section}{\color{headcolor}\large\sf\bfseries}
+\titleformat*{\subsection}{\color{headcolor}\sf\bfseries}
+\titlespacing{\subsection}{0pt}{1ex}{0.5ex}
+
+% Miscellaneous dimensions
+\setlength{\parskip}{0ex}
+\setlength{\parindent}{0em}
+\setlength{\headheight}{15pt}
+\setlength{\tabcolsep}{0.15cm}
+\clubpenalty = 10000
+\widowpenalty = 10000
+\setlist{itemsep=1pt}
+\setdescription{labelwidth=1.2cm,leftmargin=1.5cm,labelindent=1.5cm,font=\rm}
+
+% Make nicer bullets
+\renewcommand{\labelitemi}{\ding{228}}
+
+\usepackage{booktabs,fontawesome5}
+%\usepackage[t1,scale=0.86]{sourcecodepro}
+
+\name{Matthias Grenié}
+\def\imagetop#1{\vtop{\null\hbox{#1}}}
+\info{%
+\raisebox{-0.05cm}{\imagetop{\faIcon{map-marker-alt}}} &  \imagetop{\begin{tabular}{@{}l@{}}German
+Centre for Integrative Biodversity Research (iDiv),
+Halle-Jena-Leipzig\end{tabular}}\\ %
+\faIcon{home} & \href{http://rekyt.github.io}{rekyt.github.io}\\% %
+\faIcon{phone-alt} & +49 341 9733176\\%
+\faIcon{envelope} & \href{mailto:matthias.grenie@idiv.de}{\nolinkurl{matthias.grenie@idiv.de}}\\%
+\faIcon{twitter} & \href{https://twitter.com/LeNematode}{@LeNematode}\\%
+\faIcon{github} & \href{https://github.com/Rekyt}{Rekyt}\\%
+%
+\faIcon{google} & \href{https://scholar.google.com/citations?user=fZ1\_d7QAAAAJ}{fZ1\_d7QAAAAJ}\\%
+\faIcon{orcid} & \href{https://orcid.org/0000-0002-4659-7522}{0000-0002-4659-7522}\\%
+}
+
+
+%\usepackage{inconsolata}
+
+
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\hfill #1~}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \cslhangindent - \csllabelwidth}{#1}\vspace{0.8ex}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+\def\endfirstpage{\newpage}
+
+\begin{document}
+\maketitle
+
+
+\hypertarget{cursus-universitaire}{%
+\section{Cursus Universitaire}\label{cursus-universitaire}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2016-2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{Doctorat en Écologie}\hfill{\footnotesize École Doctorale 584 GAIA, Univ. Montpellier}\newline
+  Montpellier, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Directeurs: \textbf{Prof. Françoiz Munoz} et \textbf{Dr. Cyrille Violle}\\~Titre: « En dehors de la norme: déviation de l'optimalité écologique et rareté fonctionnelle »%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2013-2015 & \parbox[t]{0.85\textwidth}{%
+\textbf{Master Biosciences}\hfill{\footnotesize École Normale Supérieure de Lyon, Univ. Claude Bernard Lyon 1}\newline
+  Lyon, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Normalien élève%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2012-2013 & \parbox[t]{0.85\textwidth}{%
+\textbf{Licence Biosciences}\hfill{\footnotesize École Normale Supérieure de Lyon, Univ. Claude Bernard Lyon 1}\newline
+  Lyon, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Normalien élève%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2010-2012 & \parbox[t]{0.85\textwidth}{%
+\textbf{Classe Préparatoire BCPST}\hfill{\footnotesize Lycée Saint-Louis}\newline
+  Paris, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Admis au concours Agronomie et ENS Lyon%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{parcours-professionnel-acaduxe9mique}{%
+\section{Parcours Professionnel
+Académique}\label{parcours-professionnel-acaduxe9mique}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+oct. 2020 - \textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Chercheur Postdoctoral}\hfill{\footnotesize German Center for Integrative Biodiversity Research (iDiv) / Leipzig University}\newline
+  Leipzig, Allemagne\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Travail avec le \textbf{Dr. Marten Winter} sur la biogéographie fonctionnelle des plantes introduites%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2016-2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{Doctorant}\hfill{\footnotesize Université de Montpellier}\newline
+  Montpellier, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Directeurs: François Munoz et Cyrille Violle. Contrat doctoral spécifique normalien. Sur la rareté fonctionnelle et l'écologie fonctionnelle des communautés%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+févr. 2015 - juin 2015 & \parbox[t]{0.85\textwidth}{%
+\textbf{Stage de Master 2}\hfill{\footnotesize EcoFOG}\newline
+  Kourou, Guyane Française, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Encadrant: \textbf{Dr. Bruno Hérault} sur la variabilité intraspécifique de croissance des arbres tropicaux en fonction de leurs traits fonctionnels%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+sept. 2014 - déc. 2014 & \parbox[t]{0.85\textwidth}{%
+\textbf{Stage de Master 2}\hfill{\footnotesize ISEM, Université de Montpellier}\newline
+  Montpellier, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Encadrante: \textbf{Dr. Ophélie Ronce} sur la prédiction de l'adaptation au changement climatique des arbres en utilisant des modèles de génétique quantitative de populations structurées en stade%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+févr. 2014 - juill. 2014 & \parbox[t]{0.85\textwidth}{%
+\textbf{Stage de Master 2}\hfill{\footnotesize Indiana University}\newline
+  Bloomington, IN, États-Unis\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Encadrent: \textbf{Dr. Jean-François Goût} dans l'équipe du \textbf{Pr. Michael Lynch} sur les motifs génomiques au sein du complexe \textit{Paramecium}%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+juin 2013 - août 2013 & \parbox[t]{0.85\textwidth}{%
+\textbf{Stage de L3}\hfill{\footnotesize Université Pierre et Marie Curie Paris 6}\newline
+  Paris, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Encadrants: \textbf{Dr. Éric Bapteste} et \textbf{Prof. Philippe Lopez} sur réseaux de similarités de séquences en fonction de l'origine évolutive des voies métaboliques chez \textit{Chlamydomonas reinhardtii}%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\newpage
+
+\hypertarget{encadrement-scientifique}{%
+\section{Encadrement Scientifique}\label{encadrement-scientifique}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2022-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Membre du comité de thèse de \href{https://www.idiv.de/en/profile/1248.html}{Rachel Souza Fereira}}\\[-0.1cm]{\footnotesize }}\\[0.4cm]
+avr. 2018 - mai 2018 & \parbox[t]{0.85\textwidth}{%
+\textbf{Encadrement stage de M1}\\[-0.1cm]{\footnotesize Charlotte Guérineau, stage sur la rareté fonctionnelle de différents groupes taxonomiques (oiseaux, plantes, poissons, et bactéries du sol) en France}}\\[0.4cm]
+avr. 2019 - juin 2019 & \parbox[t]{0.85\textwidth}{%
+\textbf{Co-encadrement stage de M1}\\[-0.1cm]{\footnotesize Nathan Mazet, stage sur les stratégies alimentaires des oiseaux à l'échelle globale, encadrant principal: Pr. Jean-Yves Barnagaud}}\\[0.4cm]
+\end{longtable}
+
+\hypertarget{activituxe9s-dorganisation-et-responsabilituxe9s-collectives}{%
+\section{Activités d'organisation et responsabilités
+collectives}\label{activituxe9s-dorganisation-et-responsabilituxe9s-collectives}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2022-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Relecteur de logiciel scientifique pour rOpenSci}\\[-0.1cm]{\footnotesize Pour le paquet \href{https://github.com/ropensci/software-review/issues/505}{\texttt{npi}}}}\\[0.4cm]
+2022-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Co-fondateur et animateur de \textit{iCode}}\\[-0.1cm]{\footnotesize Groupe d'animation et d'entraide (forum d'échanges, séminaires) sur R et la programmation à iDiv}}\\[0.4cm]
+2022-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Représentant des post-doctorant·es (130 personnes)}\\[-0.1cm]{\footnotesize Au \href{https://www.idiv.de/en/council.html}{\textbf{conseil de laboratoire d'iDiv}}, équivalent du conseil d'UMR}}\\[0.4cm]
+2021-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Organisateur des séminaires de l'équipe sDiv}\\[-0.1cm]{\footnotesize toutes les deux semaines}}\\[0.4cm]
+2018-2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{Représentant des Doctorant·es (70 personnes)}\\[-0.1cm]{\footnotesize Conseil d'UMR du CEFE}}\\[0.4cm]
+2018 & \parbox[t]{0.85\textwidth}{%
+\textbf{Co-organisateur d'un atelier sur les pratiques d'\textit{Open Access}}\\[-0.1cm]{\footnotesize Un événement d'une demi-journée pour apprendre à rendre nos articles accessibles, pour \textasciitilde{}50 personnes au CEFE à Montpellier}}\\[0.4cm]
+2017-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Relecteur de journaux scientifiques (\href{https://publons.com/wos-op/researcher/1466931/matthias-grenie}{voir le profil Publons})}\\[-0.1cm]{\footnotesize Pour \textit{Ecology Letters}, \textit{Functional Ecology}, \textit{Biological Reviews}, \textit{PeerJ}, \textit{Biological Conservation}, \textit{New Phytologist}, \textit{Journal of Applied Ecology}, et \textit{Journal of Biogeography}}}\\[0.4cm]
+2017 & \parbox[t]{0.85\textwidth}{%
+\textbf{Co-organisateur de la conférence Jeune Chercheur·euses \href{https://web.archive.org/web/20180823012054/http://www.mee.univ-montp2.fr/editions-precedentes/edition-2017/organisateurs-2017/}{'Models in Ecology and Evolution'}}\\[-0.1cm]{\footnotesize Une conférence annuelle pour jeunes chercheur·euses avec un public de \textasciitilde{}100 personnes du Master au Post-doctorat}}\\[0.4cm]
+2016-2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{Fondateur et animateur du groupe d'utilisateur·rices de R au CEFE}\\[-0.1cm]{\footnotesize Animation mensuelle pour les personnes utilisant R au CEFE, incluant présentations et ateliers pratiques}}\\[0.4cm]
+\end{longtable}
+
+\hypertarget{participation-uxe0-des-projets-scientifiques}{%
+\section{Participation à des projets
+scientifiques}\label{participation-uxe0-des-projets-scientifiques}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2022-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Groupe \href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/impacts/}{IMPACTS}}\hfill{\footnotesize Centre de Synthèse et d'Analyse sur la Biodiversité (CESAB)}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Groupe de synthèse sur le suivi temporel de la biodiversité terrestre en France\break Membre du groupe, en charge de la gestion de données\break Première réunion en présentiel : mars 2023%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2021-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Groupe \href{https://glonaf.org/}{Global Naturalized Alien Flora}}\hfill{\footnotesize GloNAF}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Groupe européen sur les invasions végétales \textit{via} la base GloNAF \break Contributeur aux réunions bisannuelles du groupe \break Premier auteur d'un manuscrit pour le groupe -- Co-auteur d'un manuscrit%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2017-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/free/}{Groupe FREE}}\hfill{\footnotesize CESAB}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Groupe de synthèse sur la rareté fonctionnelle en écologie and évolution \break Membre co-fondateur du groupe \break Premier auteur de 3 articles liés au groupe -- Co-auteur de 4 articles%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{bourses-et-financements}{%
+\section{Bourses et Financements}\label{bourses-et-financements}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2023-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Financement}\hfill{\footnotesize Flexpool (interne iDiv) 10k€}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Co-auteur d'un projet mené par le Dr. Qiang Yang sur l'impact des espèces de plantes naturalisées sur les réseaux plantes-pollinisateurs le long de gradients altitudinaux%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2022-\textbf{présent} & \parbox[t]{0.85\textwidth}{%
+\textbf{Financement}\hfill{\footnotesize Flexpool (interne iDiv) 10k€}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Co-auteur d'un projet mené par la Dr. Bettina Ohse, sur le lien entre traits fonctionnels et taux démographiques des arbres%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+Sept. 2016 & \parbox[t]{0.85\textwidth}{%
+\textbf{Bourse doctorale}\hfill{\footnotesize École Normale Supérieure de Lyon}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Contrat Doctoral Spécifique Normalien%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{contributions-scientifiques}{%
+\section{Contributions
+scientifiques}\label{contributions-scientifiques}}
+
+\faFile*~14 publications (5 en premier auteur). \faQuoteLeft~457
+citations (Google Scholar). \faHSquare~h-index 10 (Google Scholar).
+\faRProject~6 paquets R
+
+\hypertarget{publications}{%
+\subsection{Publications}\label{publications}}
+
+\hypertarget{publiuxe9es}{%
+\subsubsection{Publiées}\label{publiuxe9es}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_fundiversity_2023}{}}%
+\CSLLeftMargin{14. }%
+\CSLRightInline{Grenié, M., and Gruson, H. (2023). Fundiversity: A
+modular R package to compute functional diversity indices. Ecography
+\emph{n/a}, e06585.
+\href{https://doi.org/10.1111/ecog.06585}{10.1111/ecog.06585}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Cutts_Links_2023}{}}%
+\CSLLeftMargin{13. }%
+\CSLRightInline{Cutts, V., Hanz, D.M., Barajas-Barbosa, M.P., Schrodt,
+F., Steinbauer, M.J., Beierkuhnlein, C., Denelle, P.,
+Fernández-Palacios, J.M., Gaüzère, P., Grenié, M., \emph{et al.} (2023).
+Links to rare climates do not translate into distinct traits for island
+endemics. Ecology Letters \emph{n/a}.
+\href{https://doi.org/10.1111/ele.14169}{10.1111/ele.14169}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Jurburg_community_2022}{}}%
+\CSLLeftMargin{12. }%
+\CSLRightInline{Jurburg, S.D., Buscot, F., Chatzinotas, A., Chaudhari,
+N.M., Clark, A.T., Garbowski, M., Grenié, M., Hom, E.F.Y., Karakoç, C.,
+Marr, S., \emph{et al.} (2022). The community ecology perspective of
+omics data. Microbiome \emph{10}, 225.
+\href{https://doi.org/10.1186/s40168-022-01423-8}{10.1186/s40168-022-01423-8}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Gauzere_functional_2022}{}}%
+\CSLLeftMargin{11. }%
+\CSLRightInline{Gaüzère, P., Denelle, P., Fournier, B., Grenié, M.,
+Delalandre, L., Münkemüller, T., Munoz, F., Violle, C., and Thuiller, W.
+(2022). The functional trait distinctiveness of plant species is scale
+dependent. Ecography \emph{in press}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Harmonizing_2022}{}}%
+\CSLLeftMargin{10. }%
+\CSLRightInline{Grenié, M., Berti, E., Carvajal-Quintero, J., Dädlow,
+G.M.L., Sagouis, A., and Winter, M. (2022). Harmonizing taxon names in
+biodiversity data: A review of tools, databases and best practices.
+Methods Ecol Evol, 2041--210X.13802.
+\href{https://doi.org/10.1111/2041-210X.13802}{10.1111/2041-210X.13802}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Mouillot_dimensionality_2021}{}}%
+\CSLLeftMargin{9. }%
+\CSLRightInline{Mouillot, D., Loiseau, N., Grenié, M., Algar, A.C.,
+Allegra, M., Cadotte, M.W., Casajus, N., Denelle, P., Guéguen, M.,
+Maire, A., \emph{et al.} (2021). The dimensionality and structure of
+species trait spaces. Ecology Letters \emph{24}, 1988--2009.
+\href{https://doi.org/10.1111/ele.13778}{10.1111/ele.13778}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Loiseau_Global_2020}{}}%
+\CSLLeftMargin{8. }%
+\CSLRightInline{Loiseau, N., Mouquet, N., Casajus, N., Grenié, M.,
+Guéguen, M., Maitner, B., Mouillot, D., Ostling, A., Renaud, J., Tucker,
+C., \emph{et al.} (2020). Global distribution and conservation status of
+ecologically rare mammal and bird species. Nature Communications
+\emph{11}, 5071.
+\href{https://doi.org/10.1038/s41467-020-18779-w}{10.1038/s41467-020-18779-w}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_prediction_2020}{}}%
+\CSLLeftMargin{7. }%
+\CSLRightInline{Grenié, M., Violle, C., and Munoz, F. (2020). Is
+prediction of species richness from stacked species distribution models
+biased by habitat saturation? Ecological Indicators \emph{111}, 105970.
+\href{https://doi.org/10.1016/j.ecolind.2019.105970}{10.1016/j.ecolind.2019.105970}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Joffard_Effect_2019}{}}%
+\CSLLeftMargin{6. }%
+\CSLRightInline{Joffard, N., Massol, F., Grenié, M., Montgelard, C., and
+Schatz, B. (2019). Effect of pollination strategy, phylogeny and
+distribution on pollination niches of Euro-Mediterranean orchids.
+Journal of Ecology \emph{107}, 478--490.
+\href{https://doi.org/10.1111/1365-2745.13013}{10.1111/1365-2745.13013}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Barnagaud_Functional_2019}{}}%
+\CSLLeftMargin{5. }%
+\CSLRightInline{Barnagaud, J.-Y., Mazet, N., Munoz, F., Grenié, M.,
+Denelle, P., Sobral, M., Kissling, W.D., Sekercioglu, Ç.H., and Violle,
+C. (2019). Functional biogeography of dietary strategies in birds.
+Global Ecology and Biogeography \emph{28}, 1004--1017.
+\href{https://doi.org/10.1111/geb.12910}{10.1111/geb.12910}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Functional_2018}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{Grenié, M., Mouillot, D., Villéger, S., Denelle, P.,
+Tucker, C.M., Munoz, F., and Violle, C. (2018). Functional rarity of
+coral reef fishes at the global scale: Hotspots and challenges for
+conservation. Biological Conservation \emph{226}, 288--299.
+\href{https://doi.org/10.1016/j.biocon.2018.08.011}{10.1016/j.biocon.2018.08.011}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Munoz_ecolottery_2018}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{Munoz, F., Grenié, M., Denelle, P., Taudière, A.,
+Laroche, F., Tucker, C., and Violle, C. (2018). Ecolottery: Simulating
+and assessing community assembly with environmental filtering and
+neutral dynamics in R. Methods in Ecology and Evolution \emph{9},
+693--703.
+\href{https://doi.org/10.1111/2041-210X.12918}{10.1111/2041-210X.12918}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Violle_Common_2017}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Violle, C., Thuiller, W., Mouquet, N., Munoz, F., Kraft,
+N.J.B., Cadotte, M.W., Livingstone, S.W., Grenié, M., and Mouillot, D.
+(2017). A Common Toolbox to Understand, Monitor or Manage Rarity? A
+Response to Carmona et al. Trends in Ecology \& Evolution \emph{32},
+891--893.
+\href{https://doi.org/10.1016/j.tree.2017.10.001}{10.1016/j.tree.2017.10.001}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_funrar_2017}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Grenié, M., Denelle, P., Tucker, C.M., Munoz, F., and
+Violle, C. (2017). Funrar: An R package to characterize functional
+rarity. Diversity and Distributions \emph{23}, 1365--1371.
+\href{https://doi.org/10.1111/ddi.12629}{10.1111/ddi.12629}.}
+
+\hypertarget{pruxe9-publication}{%
+\subsubsection{Pré-publication}\label{pruxe9-publication}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-Munoz_ecological_2022}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Munoz, F., Klausmeier, C., \ldots, Grenié, M., Loiseau,
+N., Mahaut, L., Maire, A., Mouillot, D., Violle, C., and Kraft, N.
+(2022). The ecological causes of functional distinctiveness in
+communities.
+\href{https://doi.org/10.22541/au.166488862.28762630/v1}{10.22541/au.166488862.28762630/v1}.}
+
+\hypertarget{paquets-r}{%
+\subsection{Paquets R}\label{paquets-r}}
+
+\begin{itemize}
+\item
+  \textbf{\texttt{funrar}} (créateur principal et mainteneux)
+  \hfill\break calcule des indices de rareté fonctionnelle, central pour
+  les travaux du groupe CESAB FREE
+  \hfill\break ~\href{https://doi.org/10.1111/ddi.12629}{\faFile*~
+  article publié} --
+  \href{https://cran.r-project.org/package=funrar}{\faRProject~CRAN} --
+  \href{https://github.com/Rekyt/funrar}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{ecolottery}} (co-créateur) \hfill\break simule de
+  manière efficace des processus d'assemblages de communautés en
+  intégrant à la fois des processus neutre et de niches
+  \hfill\break ~\href{https://doi.org/10.1111/2041-210X.12918}{\faFile*~article
+  publié} --
+  \href{https://cran.r-project.org/package=ecolottery}{\faRProject~CRAN}
+  -- \href{https://github.com/frmunoz/ecolottery}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{fundiversity}} (co-créateur et mainteneur)
+  \hfill\break calcul des indices de diversité fonctionnelle de manière
+  efficace, modulaire, en intégrant des fonctionnalités modernes
+  récentes (parallélisation, mémoisation)
+  \hfill\break ~\href{https://doi.org/10.1111/ecog.06585}{\faFile*~article
+  publié} --
+  \href{https://cran.r-project.org/package=fundiversity}{\faRProject~CRAN}
+  -- \href{https://github.com/bisaloo/fundiversity}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{rromeo}} (co-créateur et mainteneur)
+  \hfill\break accès aux données de
+  l'\href{https://v2.sherpa.ac.uk/romeo/}{API Sherpa/RoMEO} qui indexe
+  les pratiques d'\textit{Open Access} des journaux scientifiques
+  \hfill\break~\href{https://docs.ropensci.org/rromeo}{publié par
+  rOpenSci} --
+  \href{https://cran.r-project.org/package=rromeo}{\faRProject~CRAN} --
+  \href{https://github.com/ropensci/rromeo}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{funbiogeo}} (co-créateur et mainteneur)
+  \hfill\break facilite les analyses en biogéographique fonctionnelle,
+  dévelopé dans le context du group CESAB FREE
+  \hfill\break ~\href{https://github.com/FRBCesab/funbiogeo}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{rtaxref}} (créateur et maintenuer) \hfill\break accède
+  aux données de l'API du Référentiel Taxonomique Français (TAXREF)
+  \hfill\break ~\href{https://github.com/Rekyt/rtaxref}{\faGithub~GitHub}
+\item
+  Contributions significatives à d'autres paquets R:
+  \href{https://cran.r-project.org/package=taxize}{\textbf{\texttt{taxize}}}
+  (extraction et standardisation de données taxonomiques),
+  \href{https://cran.r-project.org/package=ggfortify}{\textbf{\texttt{ggfortify}}}
+  (simplification et extraction automatique de graphiques), et
+  \href{https://cran.r-project.org/package=traitdataform}{\textbf{\texttt{traitdataform}}}
+  (aide à l'écriture de métadonnées sur les traits fonctionnels)
+\end{itemize}
+
+\hypertarget{actes-de-confuxe9rences}{%
+\subsection{Actes de Conférences}\label{actes-de-confuxe9rences}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Matching_2021}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Grenié, M., Berti, E., Carvajal-Quintero, J., Winter,
+M., and Sagouis, A. (2021). Matching Species Names Across Biodiversity
+Databases: Sources, tools, pitfalls and best practices for taxonomic
+harmonization. Biodiversity Information Science and Standards \emph{5},
+e75359.
+\href{https://doi.org/10.3897/biss.5.75359}{10.3897/biss.5.75359}.}
+
+\hypertarget{pruxe9sentations-invituxe9es}{%
+\subsection{Présentations Invitées}\label{pruxe9sentations-invituxe9es}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+déc. 2021 & \parbox[t]{0.85\textwidth}{%
+\textbf{Séminaire de l'équipe de \href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur le thème de 'Navigating the landscape of taxonomic harmonization'}\\[-0.1cm]{\footnotesize Université de Göttingen, Allemagne}}\\[0.4cm]
+mai 2022 & \parbox[t]{0.85\textwidth}{%
+\textbf{Présentation invitée à la 3ème réunion de \href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} sur 'Taxonomic Databases of Plants and Animals'}\\[-0.1cm]{\footnotesize Paris/en visioconférence}}\\[0.4cm]
+\end{longtable}
+
+\hypertarget{pruxe9sentations-orales}{%
+\subsection{Présentations Orales}\label{pruxe9sentations-orales}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+sept 2022 & \parbox[t]{0.85\textwidth}{%
+\textbf{A barrier to global plant invasion ecology: gaps in trait availability for alien species}\\[-0.1cm]{\footnotesize Neobiota 2022, Tartu, Estonia}}\\[0.4cm]
+juil 2022 & \parbox[t]{0.85\textwidth}{%
+\textbf{A barrier to global plant invasion ecology: gaps in trait availability for alien species}\\[-0.1cm]{\footnotesize BES Macro 2022, Online}}\\[0.4cm]
+avr 2022 & \parbox[t]{0.85\textwidth}{%
+\textbf{A barrier to global plant invasion ecology: gaps in trait availability for alien species}\\[-0.1cm]{\footnotesize iDiv Conference 2022, Leipzig, Germany}}\\[0.4cm]
+août 2021 & \parbox[t]{0.85\textwidth}{%
+\textbf{Navigating the landscape of taxonomic harmonization: data, tools, and best practices}\\[-0.1cm]{\footnotesize GfÖ conference (German Speaking Ecological Society Meeting) 2021}}\\[0.4cm]
+juil 2021 & \parbox[t]{0.85\textwidth}{%
+\textbf{Navigating the landscape of taxonomic harmonization: data, tools, and best practices}\\[-0.1cm]{\footnotesize BES Macro 2021, Online}}\\[0.4cm]
+oct 2018 & \parbox[t]{0.85\textwidth}{%
+\textbf{Functional rarity of coral reef fishes at the global scale: Hotspots and challenges for conservation}\\[-0.1cm]{\footnotesize French Ecological Society Meeting (SFÉcologie) 2018, Rennes, France}}\\[0.4cm]
+juil 2018 & \parbox[t]{0.85\textwidth}{%
+\textbf{Predicting Species Richness with unicorns or why should we discuss the use of thresholds?}\\[-0.1cm]{\footnotesize BES Macro (British Ecological Society Macroecology Special Interest Group Meeting) 2018, Saint-Andrews, Scotland}}\\[0.4cm]
+févr 2017 & \parbox[t]{0.85\textwidth}{%
+\textbf{Functional rarity of coral reef fishes across space (Best Presentation Award)}\\[-0.1cm]{\footnotesize Young Natural History Scientists’ Meeting, Paris, France}}\\[0.4cm]
+sept 2016 & \parbox[t]{0.85\textwidth}{%
+\textbf{A case study of Functional Rarity: worldwide coral reef fishes}\\[-0.1cm]{\footnotesize EcoSummit 2016, Montpellier, France}}\\[0.4cm]
+\end{longtable}
+
+\hypertarget{articles-de-blog}{%
+\subsection{Articles de blog}\label{articles-de-blog}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-Salmon_Why_2022}{}}%
+\CSLLeftMargin{5. }%
+\CSLRightInline{Salmon, M., Grenié, M., and Gruson, H. (2022). Why You
+Should (or Shouldn't) Build an API Client.
+\url{https://ropensci.org/blog/2022/06/16/publicize-api-client-yes-no/}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_How_2022}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{Grenié, M. (2022). How to Save Ggplot2 Plots in a
+targets Workflow?
+\url{https://ropensci.org/blog/2022/12/06/save-ggplot2-targets/}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Community_2020}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{Grenié, M., and Gruson, H. (2020). Community Captioning
+of rOpenSci Community Calls.
+\url{https://ropensci.org/blog/2020/07/15/subtitles/}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Best_2022}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Grenié, M., Berti, E., Carvajal-Quintero, J., Dädlow,
+G.M.L., Sagouis, A., and Winter, M. (2022). Best practices for taxonomic
+harmonization, an overlooked yet crucial step in biodiversity analyses.
+\url{https://methodsblog.com/2022/03/02/best-practices-for-taxonomic-harmonization-an-overlooked-yet-crucial-step-in-biodiversity-analyses/}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Access_2019}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Grenié, M., and Gruson, H. (2019). Access Publisher
+Copyright \& Self-Archiving Policies via the 'SHERPA/RoMEO' API.
+\url{https://ropensci.org/blog/2019/06/04/rromeo/}.}
+
+\hypertarget{teaching-experience}{%
+\section{Teaching Experience}\label{teaching-experience}}
+
+I taught 100+ hours on Ecology, Biodiversity Statistics, and R
+programming from 2nd year of Bachelor to PhD students (detail below).
+
+I am a certified \href{https://carpentries.org/}{Carpentries}
+instructor, focusing on \textbf{R programming} and \textbf{Data
+Visualization}.
+
+I also founded the R User Group at the Center for Functional and
+Evolutionary Ecology in Montpellier. There, I organized regular 1h
+meet-ups on various R topics (plotting with \texttt{ggplot2}, mapping
+with \texttt{sf}, project organization with RStudio, workflow
+organization with \texttt{drake}, parallelization with \texttt{future}).
+
+\textbf{Teaching detail}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4478}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1343}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2388}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1791}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Course Name
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Year(s)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Level
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total time
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Descriptive Statistics with R (UM) & 2016/2017 & Bachelor's (2nd yr) &
+50h \\
+Functional Biogeography with R (UM,
+\href{https://github.com/Rekyt/functional_biogeo_practical}{material}) &
+2017/2018 & Master's (2nd yr) & 8h \\
+Guest Lecture on Biodiversity Facets (UL) & 2021/2022 & Master's (1st
+yr) & 4h \\
+Biodiversity Facets with R (UL,
+\href{https://rekyt.github.io/biodiversity_facets_tutorial/}{material})
+& 2021/2022 & Master's (1st yr) & 12h \\
+Group project on Biodiversity Facets (UL) & 2021 & Master's (1st yr) &
+20h \\
+Introduction to git and GitHub (UL/iDiv,
+\href{https://emilio-berti.github.io/idiv-git-introduction}{material}) &
+2022 & Masters, PhD students, and postdocs & 10h \\
+Workshop on Functional Diversity and Rarity, (@CESAB,
+\href{https://frbcesab.github.io/workshop-free/}{material}) & 2022 &
+Masters, PhD students, postdocs, \& reseachers & 3.5h \\
+Guest Lecture on Taxonomic Harmonization
+\href{https://www.nfdi4biodiversity.org/en/winterschool/}{@NFDI4Biodiversity
+Winter School on Data Management in Ecology and Evolution} & 2022 &
+Masters, PhD students, and postdocs & 2h \\
+\end{longtable}
+
+UM: University of Montpellier; UL: University of Leipzig
+
+\hypertarget{compuxe9tences}{%
+\section{Compétences}\label{compuxe9tences}}
+
+\hypertarget{langues}{%
+\subsection{Langues}\label{langues}}
+
+français {[}natif{]}; anglais {[}C2, courant et scientifique{]};
+espagnol {[}B1-B2, quotidien{]}; allemand {[}A2-B1{]}; chinois
+{[}A2-B1{]}; japonais {[}A2{]}
+
+\hypertarget{languages-de-programmation-et-informatique}{%
+\subsection{Languages de Programmation et
+Informatique}\label{languages-de-programmation-et-informatique}}
+
+\begin{itemize}
+\tightlist
+\item
+  \faRProject~\textbf{R} ~\textbullet~ Meilleures pratiques de
+  développement logiciel (tests unitaires avec\texttt{testthat}, site
+  web \texttt{pkgdown}, intégration continue/déploiement continu,
+  soumission au CRAN) ~\textbullet~ visualisation de données
+  (\texttt{ggplot2} avancé et extensions) ~\textbullet~ manipulation de
+  données spatiales {[}rasters \texttt{terra}, vecteurs \texttt{sf},
+  base de données PostGIS, et interactions{]}
+\item
+  \faDatabase~\textbf{SQL} interaction avec des bases de données
+  ~\textbullet~ requêtes haute performance ~\textbullet~ interaction
+  avec \texttt{R} ~\textbullet~ base de données spatiale
+  PostgreSQL/PostGIS
+\item
+  \faServer~\textbf{Calcul de Haute Performance} soumission de
+  \emph{job} sur SLURM/SGE ~\textbullet~ requêtes complexes
+\item
+  \faGit~contrôle de version ~\textbullet~ méthode git flow
+  ~\textbullet~ développement collaboratif grâce à \faGithub~GitHub
+\item
+  Connaissances de base de \faPython~\textbf{Python} et \textbf{Julia}
+\end{itemize}
+
+\hypertarget{statistiques-et-moduxe9lisation}{%
+\subsection{Statistiques et
+modélisation}\label{statistiques-et-moduxe9lisation}}
+
+\begin{itemize}
+\tightlist
+\item
+  Modèles nuls et de permutations pour la biodiversité
+\item
+  Modèles mixtes généralisés
+\item
+  \emph{Machine Learning}/\emph{Artificial Intelligence}: \emph{Random
+  Forest}, \emph{Support Vector Machine}
+\item
+  Modélisation de population structurées en stade, modèle de
+  Lotka-Volterra \emph{via} Mathematica
+\end{itemize}
+
+\hypertarget{autres}{%
+\subsection{Autres}\label{autres}}
+
+Digital Photography, Film Photography, Hiking
+
+\end{document}

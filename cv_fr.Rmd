@@ -4,7 +4,7 @@ surname: Grenié
 position: "Chercheur Postdoctoral"
 address: "German Centre for Integrative Biodversity Research (iDiv), Halle-Jena-Leipzig"
 phone: +49 341 9733176
-csl: csl/apa-6.csl
+csl: "csl/cell-numeric.csl"
 orcid: 0000-0002-4659-7522
 www: rekyt.github.io
 email: "matthias.grenie@idiv.de"
@@ -17,9 +17,6 @@ output:
   vitae::hyndman:
     keep_tex: true
     pandoc_args:
-      # - +RTS
-      # - -M4096m
-      # - -RTS
       - --lua-filter="lua/strong.lua"
 header-includes:
   - \definecolor{headcolor}{HTML}{1E49BF}
