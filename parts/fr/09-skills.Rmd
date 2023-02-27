@@ -20,7 +20,3 @@ français [natif]; anglais [C2, courant et scientifique]; espagnol [B1-B2, quoti
 * Modèles mixtes généralisés
 * *Machine Learning*/*Artificial Intelligence*: *Random Forest*, *Support Vector Machine*
 * Modélisation de population structurées en stade, modèle de Lotka-Volterra *via* Mathematica
-
-## Autres
-
-Digital Photography, Film Photography, Hiking
