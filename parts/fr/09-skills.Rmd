@@ -8,10 +8,11 @@ français [natif]; anglais [C2, courant et scientifique]; espagnol [B1-B2, quoti
 ## Languages de Programmation et Informatique
 
 * \faRProject&nbsp;**R** &nbsp;\textbullet&nbsp; Meilleures pratiques de développement logiciel (tests unitaires avec`testthat`, site web `pkgdown`, intégration continue/déploiement continu, soumission au CRAN) &nbsp;\textbullet&nbsp; visualisation de données (`ggplot2` avancé et extensions) &nbsp;\textbullet&nbsp; manipulation de données spatiales [rasters `terra`, vecteurs `sf`, base de données PostGIS, et interactions]
+* \faPython&nbsp;**Python** &nbsp;\textbullet&nbsp; Programmation Orientée Objet &nbsp;\textbullet&nbsp; Tri de données avec `pandas`
 * \faDatabase&nbsp;**SQL** interaction avec des bases de données &nbsp;\textbullet&nbsp; requêtes haute performance &nbsp;\textbullet&nbsp; interaction avec `R` &nbsp;\textbullet&nbsp; base de données spatiale PostgreSQL/PostGIS
 * \faServer&nbsp;**Calcul de Haute Performance** soumission de *job* sur SLURM/SGE &nbsp;\textbullet&nbsp; requêtes complexes
 * \faGit&nbsp;contrôle de version &nbsp;\textbullet&nbsp; méthode git flow &nbsp;\textbullet&nbsp; développement collaboratif grâce à \faGithub&nbsp;GitHub
-* Connaissances de base de \faPython&nbsp;**Python** et **Julia**
+* Connaissances de base en **Julia**
 
 
 ## Statistiques et modélisation
