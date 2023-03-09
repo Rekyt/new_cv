@@ -17,7 +17,7 @@
 \hfill\break&nbsp;[publié par rOpenSci](https://docs.ropensci.org/rromeo) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=rromeo) -- [\faGithub&nbsp;GitHub](https://github.com/ropensci/rromeo)
 
 * **`funbiogeo`** (co-créateur et mainteneur)
-\hfill\break facilite les analyses en biogéographique fonctionnelle, dévelopé dans le context du group CESAB FREE
+\hfill\break facilite les analyses en biogéographique fonctionnelle, dévelopé dans le contexte du groupe CESAB FREE
 \hfill\break &nbsp;[\faGithub&nbsp;GitHub](https://github.com/FRBCesab/funbiogeo)
 
 * **`rtaxref`** (créateur et maintenuer)

@@ -53,12 +53,12 @@ library("dplyr")
 
 
 ```{r child-funding, child="parts/fr/06-funding.Rmd"}
-
 ```
 
 ```{r child-contributions, child="parts/fr/07-00-contributions.Rmd"}
-
 ```
+
+\newpage
 
 ```{r child-teaching, child="parts/fr/08-teaching.Rmd"}
 ```

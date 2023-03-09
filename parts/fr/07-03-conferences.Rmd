@@ -12,7 +12,7 @@ bibliography_entries(
 ```{r invited-talks}
 tibble::tribble(
   ~what, ~when, ~with,
-  "Séminaire de l'équipe de \\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur le thème de 'Navigating the landscape of taxonomic harmonization'", "déc. 2021", "Université de Göttingen, Allemagne",
+  "Séminaire de l'équipe de \\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur 'Navigating the landscape of taxonomic harmonization'", "déc. 2021", "Université de Göttingen, Allemagne",
   "Présentation invitée à la 3ème réunion de \\href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} sur 'Taxonomic Databases of Plants and Animals'", "mai 2022", "Paris/en visioconférence"
 ) %>%
   brief_entries(what, when, with, .protect = FALSE)

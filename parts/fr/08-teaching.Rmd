@@ -1,22 +1,22 @@
 # Expérience d'enseignement
 
-J'ai enseigné plus d'une centaine d'heures de cours en Écologie, mesures de la biodiversité, et programmation R, de la L2 au doctorat.
+J'ai enseigné ~130 heures en Écologie, mesures de la biodiversité, et programmation R, de la L2 au doctorat.
 
-Je suis aussi formateur certifié par l'association [*The Carpentries*](https://carpentries.org/) qui forme les scientifiques à travers le monde à de meilleures pratiques de programmation.
+Je suis formateur certifié de l'association [*The Carpentries*](https://carpentries.org/) formant les scientifiques à la programmation.
 
-Au CEFE et à iDiv j'ai co-fondé des groupes d'utilisateur$\cdotp$rices de R pour encourager une communauté de pratiques de R. À ce titre, j'ai organisé et présenté plusieurs ateliers d'une heure sur différents sujets liés à R.
-
-## Détail des enseignements
-
-UM: Université de Montpellier ; UL: Université de Leipzig
+Au CEFE et à iDiv j'ai co-fondé des groupes d'utilisateur$\cdotp$rices de R pour encourager une communauté de pratiques de R.
+\newline J'y ai organisé et présenté plusieurs ateliers d'une heure sur des sujets liés à R.
 
 | Nom du Cours                          |Type de Cours| Année(s) | Niveau         |Durée (éq.TD)|
 |---------------------------------------|-------------|----------|----------------|-------------|
 | Statistiques Descriptives avec R (UM) | TP | 2016, 2017 | L2 | 50h |
 | Biogéographie Fonctionelle avec R (UM, [support de cours](https://github.com/Rekyt/functional_biogeo_practical)) | TP | 2017, 2018 | M2 | 8h |
+| Travaux Pratiques d'Écologie Fonctionnelle (UM) | TP | 2018 | L3 | 15h |
 | Cours Invité sur les facettes de la biodiversité (UL) | CM | 2021, 2022 | M1 | 6h |
 | Travaux Pratiques sur les facettes de la biodiversité avec R (UL, [support de cours](https://rekyt.github.io/biodiversity_facets_tutorial/)) | TP | 2021, 2022 | M1 | 12h |
 | Projet de groupe sur les facettes de la biodiversité (UL) | TD | 2021 | M1 | 20h |
 | Introduction à git et GitHub (UL, [support de cours](https://emilio-berti.github.io/idiv-git-introduction)) | CM + TP | 2022 | Masters, Doctorant$\cdotp$es, Postdoctorant$\cdotp$es | 10h |
 | Formation diversité et rareté fonctionnelle (au CESAB, [support de cours](https://frbcesab.github.io/workshop-free/)) | CM + TP | 2022 | Masters, Doctorant$\cdotp$es, Postdoctorant$\cdotp$es, Chercheur$\cdotp$euses | 4h |
 | Cours Invité sur l'harmonisation taxonomique à [l'école d'hiver de NFDI4Biodiversity sur la gestion de données en écologie & évolution](https://www.nfdi4biodiversity.org/en/winterschool/) | CM | 2022 | Masters, Doctorant$\cdotp$es, Postdoctorant$\cdotp$es | 2h |
+
+**UM**: Université de Montpellier ; **UL**: Université de Leipzig
