@@ -3,8 +3,8 @@
 ```{r funding}
 tibble::tribble(
   ~Project, ~Period, ~Where, ~Why,
-  "Financement", "2023-\\textbf{présent}", "Flexpool (interne iDiv) 10k€", "Co-auteur d'un projet mené par le Dr. Qiang Yang sur l'impact des espèces de plantes naturalisées sur les réseaux plantes-pollinisateurs le long de gradients altitudinaux",
-  "Financement", "2022-\\textbf{présent}", "Flexpool (interne iDiv) 10k€", "Co-auteur d'un projet mené par la Dr. Bettina Ohse, sur le lien entre traits fonctionnels et taux démographiques des arbres",
+  "Financement", "2023-\\textbf{présent}", "Flexpool (interne iDiv) 10k€", "Co-rédacteur et collaborateur du projet mené par Dr. Qiang Yang sur l'impact des espèces de plantes naturalisées sur les réseaux plantes-pollinisateurs le long de gradients altitudinaux",
+  "Financement", "2022-\\textbf{présent}", "Flexpool (interne iDiv) 10k€", "Co-rédacteur et collaborateur du projet mené par Dr. Bettina Ohse, sur le lien entre traits fonctionnels et taux démographiques des arbres",
   "Bourse doctorale", "Sept. 2016", "École Normale Supérieure de Lyon", "Contrat Doctoral Spécifique Normalien"
 ) %>% 
   detailed_entries(

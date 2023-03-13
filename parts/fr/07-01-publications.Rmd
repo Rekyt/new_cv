@@ -14,7 +14,7 @@ if_accepted_non_zero = nrow(accepted) > 0
 ```{r accepted-papers, eval = if_accepted_non_zero}
 accepted_title = "### Acceptées"
 
-if (nrow(accepteds) == 1) accepted_title = "### Acceptée"
+if (nrow(accepted) == 1) accepted_title = "### Acceptée"
 
 knitr::asis_output(accepted_title)
 
