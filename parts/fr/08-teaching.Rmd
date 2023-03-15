@@ -1,6 +1,6 @@
 # Expérience d'enseignement
 
-J'ai enseigné ~130 heures en Écologie, mesures de la biodiversité, et programmation R, de la L2 au doctorat.
+J'ai enseigné ~130 heures en écologie, mesures de la biodiversité, et programmation R, de la L2 au doctorat.
 
 Je suis formateur certifié de l'association [*The Carpentries*](https://carpentries.org/) formant les scientifiques à la programmation.
 

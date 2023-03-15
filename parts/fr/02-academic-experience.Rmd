@@ -11,7 +11,7 @@ tribble(
   "Stage de Master 2", "sept. 2014 - déc. 2014", "ISEM, Université de Montpellier", "Montpellier, France",
     "Encadrante: \\textbf{Dr. Ophélie Ronce} sur la prédiction de l'adaptation au changement climatique des arbres en utilisant des modèles de génétique quantitative de populations structurées en stade",
   "Stage de Master 2", "févr. 2014 - juill. 2014", "Indiana University", "Bloomington, IN, États-Unis",
-    "Encadrent: \\textbf{Dr. Jean-François Goût} dans l'équipe du \\textbf{Pr. Michael Lynch} sur les motifs génomiques au sein du complexe \\textit{Paramecium}",
+    "Encadrant: \\textbf{Dr. Jean-François Goût} dans l'équipe du \\textbf{Pr. Michael Lynch} sur les motifs génomiques au sein du complexe \\textit{Paramecium}",
   "Stage de L3", "juin 2013 - août 2013", "Université Pierre et Marie Curie Paris 6", "Paris, France",
   "Encadrants: \\textbf{Dr. Éric Bapteste} et \\textbf{Prof. Philippe Lopez} sur réseaux de similarités de séquences en fonction de l'origine évolutive des voies métaboliques chez \\textit{Chlamydomonas reinhardtii}"
 ) %>% 
