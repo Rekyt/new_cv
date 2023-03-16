@@ -1,6 +1,6 @@
 ## Paquets R
 
-* **`funrar`** (créateur principal et mainteneux)
+* **`funrar`** (créateur principal et mainteneur)
 \hfill\break calcule des indices de rareté fonctionnelle, central pour les travaux du groupe CESAB FREE
 \hfill\break &nbsp;[\faFile*&nbsp; article publié](https://doi.org/10.1111/ddi.12629) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=funrar) -- [\faGithub&nbsp;GitHub](https://github.com/Rekyt/funrar)
 
