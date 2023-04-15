@@ -49,6 +49,8 @@ library("dplyr")
 ```{r child="parts/en/05-projects.Rmd"}
 ```
 
+```{r child-funding, child="parts/en/06-funding.Rmd"}
+```
 
 # Scientific Contributions
 

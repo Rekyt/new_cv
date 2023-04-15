@@ -192,12 +192,44 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
   \empty%
   \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
 \begin{itemize}%
-\item Contributor to the regular meetings. Currently leading one article for the group.%
+\item Contributor to the regular meetings. Currently leading one article for the group%
 \end{itemize}%
 \end{minipage}%
 \vspace{\parsep}}\\
 \end{longtable}
 
+
+# Funding
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2023-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{Funded Project}\hfill{\footnotesize Flexpool (internal iDiv) 10k€}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Co-author and Co-PI of the project led by \textbf{Dr. Qiang Yang} on the impact of naturalized plant species on plant-pollinator networks across elevational gradients%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{Funded Project}\hfill{\footnotesize Flexpool (internal iDiv) 10k€}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Co-author and Co-PI of the project led by \textbf{Dr. Bettina Ohse} on the link between fonctionnal traits and demographic rates of trees%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+Sept. 2016 & \parbox[t]{0.85\textwidth}{%
+\textbf{Doctoral Scholarship}\hfill{\footnotesize École Normale Supérieure de Lyon}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Specific Doctoral Scholarship for Students of the ENS de Lyon%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
 
 # Scientific Contributions
 
@@ -214,7 +246,7 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
 
 ### Accepted
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f81a883341.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7c17da6859.yaml
 :::
 
 
@@ -228,7 +260,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f81a883341.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f87dff1e7d.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7c573bed2.yaml
 :::
 
 
@@ -268,7 +300,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f87dff1e7d.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f8499e498c.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7c77be38f5.yaml
 :::
 
 
@@ -310,7 +342,7 @@ September 2016 & \parbox[t]{0.85\textwidth}{%
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f833af3fc7.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7cb672b1.yaml
 :::
 
 

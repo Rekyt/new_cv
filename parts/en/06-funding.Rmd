@@ -1,0 +1,13 @@
+# Funding
+
+```{r funding}
+tibble::tribble(
+  ~Project, ~Period, ~Where, ~Why,
+  "Funded Project", "2023-\\textbf{now}", "Flexpool (internal iDiv) 10k€", "Co-author and Co-PI of the project led by \\textbf{Dr. Qiang Yang} on the impact of naturalized plant species on plant-pollinator networks across elevational gradients",
+  "Funded Project", "2022-\\textbf{now}", "Flexpool (internal iDiv) 10k€", "Co-author and Co-PI of the project led by \\textbf{Dr. Bettina Ohse} on the link between fonctionnal traits and demographic rates of trees",
+  "Doctoral Scholarship", "Sept. 2016", "École Normale Supérieure de Lyon", "Specific Doctoral Scholarship for Students of the ENS de Lyon"
+) %>% 
+  detailed_entries(
+    Project, Period, with = Where, where = "", why = Why, .protect = FALSE
+  )
+```
