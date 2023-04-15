@@ -3,15 +3,16 @@
 ```{r academic-experience}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Postdoctoral Researcher", "Oct. 2020-\\textbf{now}", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Germany",
-  c("Working with \\textbf{Dr. Marten Winter} on the functional biogegraphy of alien plants"),
-  "PhD Student", "2016-2020", "Montpellier University", "Montpellier, France", NULL,
+  "Postdoctoral Researcher", "Oct. 2020-\\textbf{present}", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Germany",
+  c("Supervised by \\textbf{Dr. Marten Winter} on the functional biogegraphy of alien plants"),
+  "PhD Student", "2016-2020", "Univ. Montpellier / CEFE", "Montpellier, France", "Supervisors:  \\textbf{Pr. François Munoz} and\\textbf{Dr. Cyrille Violle}. Independent PhD funding",
   "Master Intern", "Feb. 2015-June 2015", "EcoFOG", "Kourou, French Guiana, France",
-  "Supervised by \\textbf{Dr. Bruno Hérault} on intraspecific variability in tropical trees growth in function of functional traits",
+  "Supervisor: \\textbf{Dr. Bruno Hérault} on intraspecific variability in tropical trees growth in function of functional traits",
   "Master Intern", "Sept. 2014-Dec. 2014", "ISEM, University of Montpellier", "Montpellier, France",
-    "Supervised by \\textbf{Dr. Ophélie Ronce} on matrix population models",
+    "Supervisor: \\textbf{Dr. Ophélie Ronce} on matrix population models",
   "Master Intern", "Feb. 2014-July 2014", "Indiana University", "Bloomington, IN, USA",
-    "Supervised by \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab on trait motifs in the \\textit{Paramecium} complex"
+    "Supervised by \\textbf{Dr. Jean-François Goût} in Michael Lynch's lab on trait motifs in the \\textit{Paramecium} complex",
+  "Bachelor Intern", "June 2013-Aug. 2013", "Université Pierre et Marie Curie Paris 6", "Paris, France", "Supervisors: \\textbf{Dr. Éric Bapteste} and \\textbf{Prof. Philippe Lopez} on sequence similarity networks of the metabolic pathways of \\textit{Chlamydomonas reinhardtii} in function of their origin"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
 ```
