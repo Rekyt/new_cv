@@ -1,22 +1,25 @@
 # Teaching Experience
 
-I taught 100+ hours on Ecology, Biodiversity Statistics, and R programming from 2nd year of Bachelor to PhD students (detail below).
+I taught ~130 hours on Ecology, Biodiversity Statistics, and R programming from 2nd year of Bachelor to PhD students (details below).
 
 I am a certified [Carpentries](https://carpentries.org/) instructor, focusing on **R programming** and **Data Visualization**.
 
-I also founded the R User Group at the Center for Functional and Evolutionary Ecology in Montpellier. There, I organized regular 1h meet-ups on various R topics (plotting with `ggplot2`, mapping with `sf`, project organization with RStudio, workflow organization with `drake`, parallelization with `future`).
+At CEFE and iDiv, I've (co-)founded R User Groups to form a community practice 
+\newline I've organized regular 1h meet-ups on various R topics.
+
 
 **Teaching detail**
 
-| Course Name                  | Year(s) | Level          | Total time |
-|------------------------------|---------|----------------|------------|
-| Descriptive Statistics with R (UM)    | 2016/2017 | Bachelor’s (2nd yr) | 50h |
-| Functional Biogeography with R (UM, [material](https://github.com/Rekyt/functional_biogeo_practical)) | 2017/2018 | Master’s (2nd yr) | 8h |
-| Guest Lecture on Biodiversity Facets (UL) | 2021/2022 | Master's (1st yr) | 4h |
-| Biodiversity Facets with R (UL, [material](https://rekyt.github.io/biodiversity_facets_tutorial/)) | 2021/2022 | Master's (1st yr) | 12h |
-| Group project on Biodiversity Facets (UL) | 2021 | Master's (1st yr) | 20h |
-| Introduction to git and GitHub (UL/iDiv, [material](https://emilio-berti.github.io/idiv-git-introduction)) | 2022 | Masters, PhD students, and postdocs | 10h |
-| Workshop on Functional Diversity and Rarity, (\@CESAB, [material](https://frbcesab.github.io/workshop-free/)) | 2022 | Masters, PhD students, postdocs, & reseachers | 3.5h |
-| Guest Lecture on Taxonomic Harmonization [\@NFDI4Biodiversity Winter School on Data Management in Ecology and Evolution](https://www.nfdi4biodiversity.org/en/winterschool/) | 2022 | Masters, PhD students, and postdocs | 2h |
+| Course Name                           | Class Type | Year(s)   | Level               | Total time |
+|---------------------------------------|------------|-----------|---------------------|------------|
+| Descriptive Statistics with R (UM)    | Pract. Sess. | 2016/2017 | Bachelor’s (2nd yr) | 50h        |
+| Functional Biogeography with R (UM, [material](https://github.com/Rekyt/functional_biogeo_practical)) | Pract. Sess. | 2017/2018 | Master’s (2nd yr) | 8h |
+| Practical session in Functional Ecology (UM) | Pract. Sess. | 2018 | Bachelor's (3rd yr) | 15h |
+| Guest Lecture on Biodiversity Facets (UL) | Lecture | 2021/2022 | Master's (1st yr) | 6h |
+| Biodiversity Facets with R (UL, [material](https://rekyt.github.io/biodiversity_facets_tutorial/)) | Pract. Sess. | 2021/2022 | Master's (1st yr) | 12h |
+| Group project on Biodiversity Facets (UL) | Student Project | 2021 | Master's (1st yr) | 20h |
+| Introduction to git and GitHub (UL/iDiv, [material](https://emilio-berti.github.io/idiv-git-introduction)) | Pract. Sess. | 2022 | Masters, PhD students, and postdocs | 10h |
+| Workshop on Functional Diversity and Rarity, (\@CESAB, [material](https://frbcesab.github.io/workshop-free/)) | Lecture and Pract. Sess. | 2022 | Masters, PhD students, postdocs, & reseachers | 4h |
+| Guest Lecture on Taxonomic Harmonization [\@NFDI4Biodiversity Winter School on Data Management in Ecology and Evolution](https://www.nfdi4biodiversity.org/en/winterschool/) | Lecture | 2022 | Masters, PhD students, and postdocs | 2h |
 
 UM: University of Montpellier; UL: University of Leipzig

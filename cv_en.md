@@ -245,7 +245,7 @@ Sept. 2016 & \parbox[t]{0.85\textwidth}{%
 
 ### Accepted
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c544042b4.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file23385acd3ff7.yaml
 :::
 
 
@@ -253,7 +253,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c544042b4.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c3c3848a8.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file23383d581c7b.yaml
 :::
 
 
@@ -294,7 +294,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c3c3848a8.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c644e761b.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file233819e06723.yaml
 :::
 
 
@@ -336,7 +336,7 @@ Sep 2016 & \parbox[t]{0.85\textwidth}{%
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c33e2338.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file2338546b3c6.yaml
 :::
 
 \newpage
@@ -344,24 +344,27 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c33e2338.yaml
 
 # Teaching Experience
 
-I taught 100+ hours on Ecology, Biodiversity Statistics, and R programming from 2nd year of Bachelor to PhD students (detail below).
+I taught ~130 hours on Ecology, Biodiversity Statistics, and R programming from 2nd year of Bachelor to PhD students (details below).
 
 I am a certified [Carpentries](https://carpentries.org/) instructor, focusing on **R programming** and **Data Visualization**.
 
-I also founded the R User Group at the Center for Functional and Evolutionary Ecology in Montpellier. There, I organized regular 1h meet-ups on various R topics (plotting with `ggplot2`, mapping with `sf`, project organization with RStudio, workflow organization with `drake`, parallelization with `future`).
+At CEFE and iDiv, I've (co-)founded R User Groups to form a community practice 
+\newline I've organized regular 1h meet-ups on various R topics.
+
 
 **Teaching detail**
 
-| Course Name                  | Year(s) | Level          | Total time |
-|------------------------------|---------|----------------|------------|
-| Descriptive Statistics with R (UM)    | 2016/2017 | Bachelor’s (2nd yr) | 50h |
-| Functional Biogeography with R (UM, [material](https://github.com/Rekyt/functional_biogeo_practical)) | 2017/2018 | Master’s (2nd yr) | 8h |
-| Guest Lecture on Biodiversity Facets (UL) | 2021/2022 | Master's (1st yr) | 4h |
-| Biodiversity Facets with R (UL, [material](https://rekyt.github.io/biodiversity_facets_tutorial/)) | 2021/2022 | Master's (1st yr) | 12h |
-| Group project on Biodiversity Facets (UL) | 2021 | Master's (1st yr) | 20h |
-| Introduction to git and GitHub (UL/iDiv, [material](https://emilio-berti.github.io/idiv-git-introduction)) | 2022 | Masters, PhD students, and postdocs | 10h |
-| Workshop on Functional Diversity and Rarity, (\@CESAB, [material](https://frbcesab.github.io/workshop-free/)) | 2022 | Masters, PhD students, postdocs, & reseachers | 3.5h |
-| Guest Lecture on Taxonomic Harmonization [\@NFDI4Biodiversity Winter School on Data Management in Ecology and Evolution](https://www.nfdi4biodiversity.org/en/winterschool/) | 2022 | Masters, PhD students, and postdocs | 2h |
+| Course Name                           | Class Type | Year(s)   | Level               | Total time |
+|---------------------------------------|------------|-----------|---------------------|------------|
+| Descriptive Statistics with R (UM)    | Pract. Sess. | 2016/2017 | Bachelor’s (2nd yr) | 50h        |
+| Functional Biogeography with R (UM, [material](https://github.com/Rekyt/functional_biogeo_practical)) | Pract. Sess. | 2017/2018 | Master’s (2nd yr) | 8h |
+| Practical session in Functional Ecology (UM) | Pract. Sess. | 2018 | Bachelor's (3rd yr) | 15h |
+| Guest Lecture on Biodiversity Facets (UL) | Lecture | 2021/2022 | Master's (1st yr) | 6h |
+| Biodiversity Facets with R (UL, [material](https://rekyt.github.io/biodiversity_facets_tutorial/)) | Pract. Sess. | 2021/2022 | Master's (1st yr) | 12h |
+| Group project on Biodiversity Facets (UL) | Student Project | 2021 | Master's (1st yr) | 20h |
+| Introduction to git and GitHub (UL/iDiv, [material](https://emilio-berti.github.io/idiv-git-introduction)) | Pract. Sess. | 2022 | Masters, PhD students, and postdocs | 10h |
+| Workshop on Functional Diversity and Rarity, (\@CESAB, [material](https://frbcesab.github.io/workshop-free/)) | Lecture and Pract. Sess. | 2022 | Masters, PhD students, postdocs, & reseachers | 4h |
+| Guest Lecture on Taxonomic Harmonization [\@NFDI4Biodiversity Winter School on Data Management in Ecology and Evolution](https://www.nfdi4biodiversity.org/en/winterschool/) | Lecture | 2022 | Masters, PhD students, and postdocs | 2h |
 
 UM: University of Montpellier; UL: University of Leipzig
 
@@ -370,20 +373,22 @@ UM: University of Montpellier; UL: University of Leipzig
 
 ## Languages
 
-Level estimates are given following the [Common European Framework of Reference for Languages (CEFR)](https://www.coe.int/en/web/portfolio/self-assessment-grid)
-
-French [native speaker]; English [C2, fluent speaker]; Spanish [B1-B2]; German [A2-B1]; Chinese [A2-B1]; Japanese [A2]
+French [native speaker]; English [C2, fluent speaker and scientific English]; Spanish [B1-B2, daily life]; German [A2-B1]; Chinese [A2-B1]; Japanese [A2]
 
 
 ## Programming languages
 
-* \faRProject&nbsp;**R** language &nbsp;\textbullet&nbsp; Best Package Development Practices (`testthat` unit tests, `pkgdown` website, Continuous Integration/Continuous Deployment, submission to CRAN) &nbsp;\textbullet&nbsp; data visualization (advanced `ggplot2` and extension packages) &nbsp;\textbullet&nbsp; spatial data manipulation [`terra` rasters, `sf` vectors, PostGIS database, and interactions]
-* \faDatabase&nbsp;**SQL** interaction with databases &nbsp;\textbullet&nbsp; high-performance query &nbsp;\textbullet&nbsp; interaction with `R` &nbsp;\textbullet&nbsp; PostgreSQL/PostGIS spatial database
-* \faServer&nbsp;**High Performance Computing** job submission on SLURM/SGE &nbsp;\textbullet&nbsp; complex array jobs
-* \faGit&nbsp;version control &nbsp;\textbullet&nbsp; git flow framework &nbsp;\textbullet&nbsp; collaborative development through \faGithub&nbsp;GitHub
-* Basic knowledge of \faPython&nbsp;**Python** and **Julia**
+* \faRProject&nbsp;**R** &nbsp;\textbullet&nbsp; Best software development practices (unit tests with `testthat`, `pkgdown` web site, continuous integration/continuous deployment, CRAN submission) &nbsp;\textbullet&nbsp; data visualization (advanced `ggplot2` and extensions) &nbsp;\textbullet&nbsp; spatial data wrangling [`terra` rasters,`sf` vectors, PostGIS database, and interactions]
+* \faPython&nbsp;**Python** &nbsp;\textbullet&nbsp; Object Oriented Programming &nbsp;\textbullet&nbsp; data wrangling with `pandas`
+* \faDatabase&nbsp;**SQL** database interactions &nbsp;\textbullet&nbsp; high performance queries &nbsp;\textbullet&nbsp; interaction with `R` &nbsp;\textbullet&nbsp; spatial database PostgreSQL/PostGIS
+* \faServer&nbsp;**High Performance Cluster** job submission on SLURM/SGE &nbsp;\textbullet&nbsp; array jobs and complex queries
+* \faGit&nbsp;version control &nbsp;\textbullet&nbsp; git flow method &nbsp;\textbullet&nbsp; collaborative development with \faGithub&nbsp;GitHub
+* Basic knowledge of **Julia**
 
 
-## Other
+## Statistics and Modelling
 
-Digital Photography, Film Photography, Hiking
+* Null models and permutation models for biodiversity
+* Generalized Linear Mixed Models
+* *Machine Learning*/*Artificial Intelligence*: *Random Forest*, *Support Vector Machine*
+* Stage-structured population models, Lotka-Volterra models through Mathematica
