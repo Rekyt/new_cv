@@ -52,20 +52,7 @@ library("dplyr")
 ```{r child-funding, child="parts/en/06-funding.Rmd"}
 ```
 
-# Scientific Contributions
-
-\faFile*&nbsp;14 publications (5 as first author). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 R packages
-
-```{r child="parts/en/06-publications.Rmd"}
-```
-
-```{r child="parts/en/07-packages.Rmd"}
-```
-
-```{r child="parts/en/08-conferences.Rmd"}
-```
-
-```{r child="parts/en/09-blogposts.Rmd"}
+```{r child-contributions, child="parts/en/07-00-contributions.Rmd"}
 ```
 
 ```{r child="parts/en/10-teaching.Rmd"}

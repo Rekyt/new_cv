@@ -1,4 +1,4 @@
-## Actes de Conférences
+## Conference Proceedings
 
 ```{r conf-proc}
 bibliography_entries(
@@ -7,19 +7,19 @@ bibliography_entries(
 ```
 
 
-## Présentations Invitées
+## Invited Talks
 
 ```{r invited-talks}
 tibble::tribble(
   ~what, ~when, ~with,
-  "Séminaire de l'équipe de \\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur 'Navigating the landscape of taxonomic harmonization'", "déc. 2021", "Université de Göttingen, Allemagne",
-  "Présentation invitée à la 3ème réunion de \\href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} sur 'Taxonomic Databases of Plants and Animals'", "mai 2022", "Paris/en visioconférence"
+  "Seminar of \\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft}'s lab on 'Navigating the landscape of taxonomic harmonization'", "Dec. 2021", "University of Göttingen, Germany",
+  "Invited talk to the 3rd meeting of \\href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} on 'Taxonomic Databases of Plants and Animals'", "May 2022", "Paris/remotely"
 ) %>%
   brief_entries(what, when, with, .protect = FALSE)
 ```
 
 
-## Présentations Orales
+## Conference Talks
 
 ```{r conferences-talks}
 here::here("bibliography", "conferences.csv") %>% 

@@ -231,14 +231,13 @@ Sept. 2016 & \parbox[t]{0.85\textwidth}{%
 \vspace{\parsep}}\\
 \end{longtable}
 
+
 # Scientific Contributions
 
-\faFile*&nbsp;14 publications (5 as first author). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 R packages
-
+\faFile*&nbsp;15 publications (5 as first author). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 R packages
 
 
 ## Publications
-
 
 <!-- Accepted -->
 
@@ -246,7 +245,15 @@ Sept. 2016 & \parbox[t]{0.85\textwidth}{%
 
 ### Accepted
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7c17da6859.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f18438a5f5.yaml
+:::
+
+
+### Published
+
+
+::: {#bibliography}
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f182a8c17a0.yaml
 :::
 
 
@@ -256,93 +263,80 @@ C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7c17da6859.yaml
 
 
 
-### Published
-
-
-::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7c573bed2.yaml
-:::
-
 
 
 ## R packages
 
+* **`funrar`** (creator and maintainer)
+\hfill\break Compute functional rarity indices, major tool for the work of the FREE CESAB group
+\hfill\break &nbsp;[\faFile*&nbsp; published paper](https://doi.org/10.1111/ddi.12629) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=funrar) -- [\faGithub&nbsp;GitHub](https://github.com/Rekyt/funrar)
 
-
-* **`funrar`** (main creator and maintainer)
-\hfill\break computes functional originality indices central for CESAB FREE group analyses
-\hfill\break &nbsp;[\faFile*&nbsp;published paper](https://doi.org/10.1111/ddi.12629) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=funrar) -- [\faGithub&nbsp;GitHub](https://github.com/Rekyt/funrar)
-
-* **`ecolottery`** (co-creator)
-\hfill\break simulates community assembly processes cleverly with both niche and neutral processes
-\hfill\break &nbsp;[\faFile*&nbsp;published paper](https://doi.org/10.1111/2041-210X.12918) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=ecolottery) -- [\faGithub&nbsp;GitHub](https://github.com/frmunoz/ecolottery)
+* **`ecolottery`** (co-creatore)
+\hfill\break efficient simulation of community assembly processes, including both neutral and niche processes
+\hfill\break &nbsp;[\faFile*&nbsp; published paper](https://doi.org/10.1111/2041-210X.12918) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=ecolottery) -- [\faGithub&nbsp;GitHub](https://github.com/frmunoz/ecolottery)
 
 * **`fundiversity`** (co-creator and maintainer)
-\hfill\break a fast and modular package to compute functional diversity indices
-\hfill\break &nbsp;[\faFile*&nbsp;published paper](https:////doi.org/10.1111/ecog.06585) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=fundiversity) -- [\faGithub&nbsp;GitHub](https://github.com/bisaloo/fundiversity)
-
-* **`rromeo`** (co-creator and maintainer)
-\hfill\break accesses the [Sherpa/RoMEO API](https://v2.sherpa.ac.uk/romeo/) that indexes the open access policies of journals
-\hfill\break&nbsp;[published by rOpenSci](https://docs.ropensci.org/rromeo) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=rromeo) -- [\faGithub&nbsp;GitHub](https://github.com/ropensci/rromeo)
+\hfill\break compute functional diversity indices in an efficient way, modular, with modern computation features out-of-the-box (parallelization, memoization)
+\hfill\break &nbsp;[\faFile*&nbsp; published paper](https://doi.org/10.1111/ecog.06585) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=fundiversity) -- [\faGithub&nbsp;GitHub](https://github.com/bisaloo/fundiversity)
 
 * **`funbiogeo`** (co-creator and maintainer)
-\hfill\break helps create functional biogeography workflows, developed in the context of the FREE CESAB group
+\hfill\break ease functional biogeography analyses, developed within FREE CESAB group
 \hfill\break &nbsp;[\faGithub&nbsp;GitHub](https://github.com/FRBCesab/funbiogeo)
 
 * **`rtaxref`** (creator and maintainer)
-\hfill\break accesses the French Taxonomic Referential (TAXREF) API
+\hfill\break access the data of the French Taxonomic Reference (TAXREF) API
 \hfill\break &nbsp;[\faGithub&nbsp;GitHub](https://github.com/Rekyt/rtaxref)
 
-* Significant contributions to other packages: [**`taxize`**](https://cran.r-project.org/package=taxize), [**`ggfortify`**](https://cran.r-project.org/package=ggfortify), and [**`traitdataform`**](https://cran.r-project.org/package=traitdataform)
+* Significant contributions to other R packages: [**`taxize`**](https://cran.r-project.org/package=taxize) (extract and standardize taxonomic data), [**`ggfortify`**](https://cran.r-project.org/package=ggfortify) (simplified and automated plotting), et [**`traitdataform`**](https://cran.r-project.org/package=traitdataform) (metadata writing help for functional traits)
 
 
-## Conference Proceedings
+## Actes de Conférences
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7c77be38f5.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f185b0e3c18.yaml
 :::
 
 
-## Invited Talks
+## Présentations Invitées
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
-December 2021 & \parbox[t]{0.85\textwidth}{%
-\textbf{\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft's regular lab seminar} on 'Navigating the landscape of taxonomic harmonization'}\\[-0.1cm]{\footnotesize University of Göttingen}}\\[0.4cm]
-May 2022 & \parbox[t]{0.85\textwidth}{%
-\textbf{Invited talk at the 3rd meeting of \href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} on 'Taxonomic Databases of Plants and Animals'}\\[-0.1cm]{\footnotesize Paris/Online}}\\[0.4cm]
+déc. 2021 & \parbox[t]{0.85\textwidth}{%
+\textbf{Séminaire de l'équipe de \href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur 'Navigating the landscape of taxonomic harmonization'}\\[-0.1cm]{\footnotesize Université de Göttingen, Allemagne}}\\[0.4cm]
+mai 2022 & \parbox[t]{0.85\textwidth}{%
+\textbf{Présentation invitée à la 3ème réunion de \href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} sur 'Taxonomic Databases of Plants and Animals'}\\[-0.1cm]{\footnotesize Paris/en visioconférence}}\\[0.4cm]
 \end{longtable}
 
 
-## Talks
+## Présentations Orales
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
-September 2022 & \parbox[t]{0.85\textwidth}{%
+Sep 2022 & \parbox[t]{0.85\textwidth}{%
 \textbf{A barrier to global plant invasion ecology: gaps in trait availability for alien species}\\[-0.1cm]{\footnotesize Neobiota 2022, Tartu, Estonia}}\\[0.4cm]
-July 2022 & \parbox[t]{0.85\textwidth}{%
+Jul 2022 & \parbox[t]{0.85\textwidth}{%
 \textbf{A barrier to global plant invasion ecology: gaps in trait availability for alien species}\\[-0.1cm]{\footnotesize BES Macro 2022, Online}}\\[0.4cm]
-April 2022 & \parbox[t]{0.85\textwidth}{%
+Apr 2022 & \parbox[t]{0.85\textwidth}{%
 \textbf{A barrier to global plant invasion ecology: gaps in trait availability for alien species}\\[-0.1cm]{\footnotesize iDiv Conference 2022, Leipzig, Germany}}\\[0.4cm]
-August 2021 & \parbox[t]{0.85\textwidth}{%
-\textbf{Navigating the landscape of taxonomic harmonization: data, tools, and best practices}\\[-0.1cm]{\footnotesize GfÃ– conference (German Speaking Ecological Society Meeting) 2021}}\\[0.4cm]
-July 2021 & \parbox[t]{0.85\textwidth}{%
+Aug 2021 & \parbox[t]{0.85\textwidth}{%
+\textbf{Navigating the landscape of taxonomic harmonization: data, tools, and best practices}\\[-0.1cm]{\footnotesize GfÖ conference (German Speaking Ecological Society Meeting) 2021}}\\[0.4cm]
+Jul 2021 & \parbox[t]{0.85\textwidth}{%
 \textbf{Navigating the landscape of taxonomic harmonization: data, tools, and best practices}\\[-0.1cm]{\footnotesize BES Macro 2021, Online}}\\[0.4cm]
-October 2018 & \parbox[t]{0.85\textwidth}{%
-\textbf{Functional rarity of coral reef fishes at the global scale: Hotspots and challenges for conservation}\\[-0.1cm]{\footnotesize French Ecological Society Meeting (SFÃ‰cologie) 2018, Rennes, France}}\\[0.4cm]
-July 2018 & \parbox[t]{0.85\textwidth}{%
+Oct 2018 & \parbox[t]{0.85\textwidth}{%
+\textbf{Functional rarity of coral reef fishes at the global scale: Hotspots and challenges for conservation}\\[-0.1cm]{\footnotesize French Ecological Society Meeting (SFÉcologie) 2018, Rennes, France}}\\[0.4cm]
+Jul 2018 & \parbox[t]{0.85\textwidth}{%
 \textbf{Predicting Species Richness with unicorns or why should we discuss the use of thresholds?}\\[-0.1cm]{\footnotesize BES Macro (British Ecological Society Macroecology Special Interest Group Meeting) 2018, Saint-Andrews, Scotland}}\\[0.4cm]
-February 2017 & \parbox[t]{0.85\textwidth}{%
-\textbf{Functional rarity of coral reef fishes across space (Best Presentation Award)}\\[-0.1cm]{\footnotesize Young Natural History Scientistsâ€™ Meeting, Paris, France}}\\[0.4cm]
-September 2016 & \parbox[t]{0.85\textwidth}{%
-\textbf{ A case study of Functional Rarity: worldwide coral reef fishes}\\[-0.1cm]{\footnotesize EcoSummit 2016, Montpellier, France}}\\[0.4cm]
+Feb 2017 & \parbox[t]{0.85\textwidth}{%
+\textbf{Functional rarity of coral reef fishes across space (Best Presentation Award)}\\[-0.1cm]{\footnotesize Young Natural History Scientists’ Meeting, Paris, France}}\\[0.4cm]
+Sep 2016 & \parbox[t]{0.85\textwidth}{%
+\textbf{A case study of Functional Rarity: worldwide coral reef fishes}\\[-0.1cm]{\footnotesize EcoSummit 2016, Montpellier, France}}\\[0.4cm]
 \end{longtable}
 
 
-## Blogposts
+## Articles de blog
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpwBXfMj/file3b7cb672b1.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f186ee8336f.yaml
 :::
 
 
