@@ -145,22 +145,24 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
 # Scientific Service
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
-2017-\textbf{now} & \parbox[t]{0.85\textwidth}{%
-\textbf{Reviewer for Scientific Journals (\href{https://publons.com/wos-op/researcher/1466931/matthias-grenie}{see Publons profile})}\\[-0.1cm]{\footnotesize For \textit{Ecology Letters}, \textit{Functional Ecology}, \textit{Biological Reviews}, \textit{PeerJ}, \textit{Biological Conservation}, and \textit{Journal of Biogeography}}}\\[0.4cm]
 2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
 \textbf{Software reviewer for rOpenSci}\\[-0.1cm]{\footnotesize For the \href{https://github.com/ropensci/software-review/issues/505}{\texttt{npi} package}}}\\[0.4cm]
+2017-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{Reviewer for Scientific Journals (\href{https://publons.com/wos-op/researcher/1466931/matthias-grenie}{see Publons profile})}\\[-0.1cm]{\footnotesize For \textit{Ecology Letters}, \textit{Functional Ecology}, \textit{Biological Reviews}, \textit{PeerJ}, \textit{Biological Conservation}, \textit{New Phytologist}, \textit{Journal of Applied Ecology}, and \textit{Journal of Biogeography}}}\\[0.4cm]
 2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
-\textbf{Post-doctoral researchers representative}\\[-0.1cm]{\footnotesize \href{https://www.idiv.de/en/council.html}{\textbf{iDiv Council}}, an advisory council of iDiv}}\\[0.4cm]
+\textbf{Co-founder and active member of \textit{iCode}}\\[-0.1cm]{\footnotesize Coding club of iDiv. Group for exchanges about R and programming practices at iDiv}}\\[0.4cm]
+2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{Post-doctoral researchers representative (130 people)}\\[-0.1cm]{\footnotesize \href{https://www.idiv.de/en/council.html}{\textbf{iDiv Council}}, the main advisory council of iDiv}}\\[0.4cm]
 2021-\textbf{now} & \parbox[t]{0.85\textwidth}{%
 \textbf{Organizer of the biweekly sDiv lab meetings}\\[-0.1cm]{\footnotesize sDiv team}}\\[0.4cm]
-2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
-\textbf{Member of PhD Advisory Committee of \href{https://www.idiv.de/en/profile/1248.html}{\textit{Rachel Souza Fereira}}}\\[-0.1cm]{\footnotesize }}\\[0.4cm]
 2018-2020 & \parbox[t]{0.85\textwidth}{%
-\textbf{Representative of PhD students in the CEFE lab council}\\[-0.1cm]{\footnotesize CEFE lab council, the main governing body of the lab}}\\[0.4cm]
+\textbf{Representative of PhD students (70 people)}\\[-0.1cm]{\footnotesize CEFE lab council, the main governing body of the lab}}\\[0.4cm]
 2018 & \parbox[t]{0.85\textwidth}{%
 \textbf{Co-organizer of half-day workshop on Open Access Practices}\\[-0.1cm]{\footnotesize An event on how to make your articles accessible, organized for \textasciitilde{}50 people of the CEFE in Montpellier}}\\[0.4cm]
 2017 & \parbox[t]{0.85\textwidth}{%
 \textbf{Co-organizer of Junior Conference \href{https://web.archive.org/web/20180823012054/http://www.mee.univ-montp2.fr/editions-precedentes/edition-2017/organisateurs-2017/}{'Models in Ecology and Evolution'}}\\[-0.1cm]{\footnotesize A junior conference organized yearly in Montpellier with \textasciitilde{}100 people attending from Masters to Post-docs}}\\[0.4cm]
+2016-2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{Founder and main coordinator of the CEFE R User Group}\\[-0.1cm]{\footnotesize Monthly meeting for people who are using R at CEFE with presentations and pratical examples}}\\[0.4cm]
 \end{longtable}
 
 
@@ -212,7 +214,7 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
 
 ### Accepted
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpuy3WwZ/file498031f45048.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c7812d15e8.yaml
 :::
 
 
@@ -226,7 +228,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmpuy3WwZ/file498031f45048.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpuy3WwZ/file49804e86fbc.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c78e324be7.yaml
 :::
 
 
@@ -266,7 +268,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmpuy3WwZ/file49804e86fbc.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpuy3WwZ/file49806aea7956.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c782ecc7dac.yaml
 :::
 
 
@@ -308,7 +310,7 @@ September 2016 & \parbox[t]{0.85\textwidth}{%
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpuy3WwZ/file49804d0a2322.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c78381d34e0.yaml
 :::
 
 
