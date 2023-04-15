@@ -55,9 +55,10 @@ library("dplyr")
 ```{r child-contributions, child="parts/en/07-00-contributions.Rmd"}
 ```
 
-```{r child="parts/en/10-teaching.Rmd"}
+\newpage
+
+```{r child-teaching, child="parts/en/08-teaching.Rmd"}
 ```
 
-```{r child="parts/en/11-skills.Rmd"}
+```{r child-skills, child="parts/en/09-skills.Rmd"}
 ```
-

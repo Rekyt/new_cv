@@ -1,4 +1,4 @@
-## Articles de blog
+## Blog posts
 
 ```{r blogposts}
 bibliography_entries(

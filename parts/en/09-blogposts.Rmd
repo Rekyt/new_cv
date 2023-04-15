@@ -1,7 +1,0 @@
-## Blogposts
-
-```{r blogposts}
-bibliography_entries(
-  here::here("bibliography", "blogposts.bib")
-)
-```

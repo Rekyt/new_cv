@@ -245,7 +245,7 @@ Sept. 2016 & \parbox[t]{0.85\textwidth}{%
 
 ### Accepted
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f18438a5f5.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c544042b4.yaml
 :::
 
 
@@ -253,7 +253,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f18438a5f5.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f182a8c17a0.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c3c3848a8.yaml
 :::
 
 
@@ -290,25 +290,25 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f182a8c17a0.yaml
 * Significant contributions to other R packages: [**`taxize`**](https://cran.r-project.org/package=taxize) (extract and standardize taxonomic data), [**`ggfortify`**](https://cran.r-project.org/package=ggfortify) (simplified and automated plotting), et [**`traitdataform`**](https://cran.r-project.org/package=traitdataform) (metadata writing help for functional traits)
 
 
-## Actes de Conférences
+## Conference Proceedings
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f185b0e3c18.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c644e761b.yaml
 :::
 
 
-## Présentations Invitées
+## Invited Talks
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
-déc. 2021 & \parbox[t]{0.85\textwidth}{%
-\textbf{Séminaire de l'équipe de \href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur 'Navigating the landscape of taxonomic harmonization'}\\[-0.1cm]{\footnotesize Université de Göttingen, Allemagne}}\\[0.4cm]
-mai 2022 & \parbox[t]{0.85\textwidth}{%
-\textbf{Présentation invitée à la 3ème réunion de \href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} sur 'Taxonomic Databases of Plants and Animals'}\\[-0.1cm]{\footnotesize Paris/en visioconférence}}\\[0.4cm]
+Dec. 2021 & \parbox[t]{0.85\textwidth}{%
+\textbf{Seminar of \href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft}'s lab on 'Navigating the landscape of taxonomic harmonization'}\\[-0.1cm]{\footnotesize University of Göttingen, Germany}}\\[0.4cm]
+May 2022 & \parbox[t]{0.85\textwidth}{%
+\textbf{Invited talk to the 3rd meeting of \href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} on 'Taxonomic Databases of Plants and Animals'}\\[-0.1cm]{\footnotesize Paris/remotely}}\\[0.4cm]
 \end{longtable}
 
 
-## Présentations Orales
+## Conference Talks
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
 Sep 2022 & \parbox[t]{0.85\textwidth}{%
@@ -332,12 +332,14 @@ Sep 2016 & \parbox[t]{0.85\textwidth}{%
 \end{longtable}
 
 
-## Articles de blog
+## Blog posts
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmpma9hT2/file1f186ee8336f.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/Rtmpmk5wMQ/file40c33e2338.yaml
 :::
+
+\newpage
 
 
 # Teaching Experience
@@ -385,4 +387,3 @@ French [native speaker]; English [C2, fluent speaker]; Spanish [B1-B2]; German [
 ## Other
 
 Digital Photography, Film Photography, Hiking
-
