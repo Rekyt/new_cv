@@ -1,0 +1,38 @@
+## Actes de Conférences
+
+```{r conf-proc}
+bibliography_entries(
+  here::here("bibliography", "conference_proceedings.bib")
+)
+```
+
+
+## Présentations Invitées
+
+```{r invited-talks}
+tibble::tribble(
+  ~what, ~when, ~with,
+  "Séminaire de l'équipe de \\href{https://www.researchgate.net/lab/Holger-Krefts-lab-Holger-Kreft}{Holger Kreft} sur 'Navigating the landscape of taxonomic harmonization'", "déc. 2021", "Université de Göttingen, Allemagne",
+  "Présentation invitée à la 3ème réunion de \\href{https://d2kab.mystrikingly.com/}{Data to Knowledge in Agronomy and Biodiversity (D2KAB)} sur 'Taxonomic Databases of Plants and Animals'", "mai 2022", "Paris/en visioconférence"
+) %>%
+  brief_entries(what, when, with, .protect = FALSE)
+```
+
+
+## Présentations Orales
+
+```{r conferences-talks}
+here::here("bibliography", "conferences.csv") %>% 
+  readr::read_csv() %>%
+  as.data.frame() %>% 
+  {.[rev(rownames(.)),]} %>%  # Reverse rows to have most recent on top
+  mutate(
+    conference_date = lubridate::my(conference_date) %>%
+      {paste(
+        lubridate::month(., label = TRUE, abbr = TRUE), lubridate::year(.)
+      )}
+  ) %>%
+  brief_entries(
+    conference_title, conference_date, conference_venue, .protect = FALSE
+  )
+```

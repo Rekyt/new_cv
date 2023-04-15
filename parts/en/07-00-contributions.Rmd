@@ -1,0 +1,15 @@
+# Scientific Contributions
+
+\faFile*&nbsp;15 publications (5 as first author). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 R packages
+
+```{r child="07-01-publications.Rmd"}
+```
+
+```{r child="07-02-packages.Rmd"}
+```
+
+```{r child="07-03-conferences.Rmd"}
+```
+
+```{r child="07-04-blogposts.Rmd"}
+```

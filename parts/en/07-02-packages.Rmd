@@ -1,0 +1,23 @@
+## R packages
+
+* **`funrar`** (créateur principal et mainteneur)
+\hfill\break calcule des indices de rareté fonctionnelle, central pour les travaux du groupe CESAB FREE
+\hfill\break &nbsp;[\faFile*&nbsp; article publié](https://doi.org/10.1111/ddi.12629) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=funrar) -- [\faGithub&nbsp;GitHub](https://github.com/Rekyt/funrar)
+
+* **`ecolottery`** (co-créateur)
+\hfill\break simule de manière efficace des processus d'assemblages de communautés en intégrant à la fois des processus neutre et de niches
+\hfill\break &nbsp;[\faFile*&nbsp;article publié](https://doi.org/10.1111/2041-210X.12918) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=ecolottery) -- [\faGithub&nbsp;GitHub](https://github.com/frmunoz/ecolottery)
+
+* **`fundiversity`** (co-créateur et mainteneur)
+\hfill\break calcul des indices de diversité fonctionnelle de manière efficace, modulaire, en intégrant des fonctionnalités modernes récentes (parallélisation, mémoisation)
+\hfill\break &nbsp;[\faFile*&nbsp;article publié](https://doi.org/10.1111/ecog.06585) -- [\faRProject&nbsp;CRAN](https://cran.r-project.org/package=fundiversity) -- [\faGithub&nbsp;GitHub](https://github.com/bisaloo/fundiversity)
+
+* **`funbiogeo`** (co-créateur et mainteneur)
+\hfill\break facilite les analyses en biogéographique fonctionnelle, dévelopé dans le contexte du groupe CESAB FREE
+\hfill\break &nbsp;[\faGithub&nbsp;GitHub](https://github.com/FRBCesab/funbiogeo)
+
+* **`rtaxref`** (créateur et maintenuer)
+\hfill\break accède aux données de l'API du Référentiel Taxonomique Français (TAXREF)
+\hfill\break &nbsp;[\faGithub&nbsp;GitHub](https://github.com/Rekyt/rtaxref)
+
+* Contributions significatives à d'autres paquets R: [**`taxize`**](https://cran.r-project.org/package=taxize) (extraction et standardisation de données taxonomiques), [**`ggfortify`**](https://cran.r-project.org/package=ggfortify) (simplification et extraction automatique de graphiques), et [**`traitdataform`**](https://cran.r-project.org/package=traitdataform) (aide à l'écriture de métadonnées sur les traits fonctionnels)

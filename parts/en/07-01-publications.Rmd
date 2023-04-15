@@ -1,0 +1,60 @@
+## Publications
+
+<!-- Accepted -->
+
+```{r accepted_preprocess}
+accepted = bibliography_entries(
+  here::here("bibliography", "accepted.bib")
+)
+
+if_accepted_non_zero = nrow(accepted) > 0
+
+```
+
+```{r accepted-papers, eval = if_accepted_non_zero}
+accepted_title = "### Accepted"
+
+if (nrow(accepted) == 1) accepted_title = "### Accepted"
+
+knitr::asis_output(accepted_title)
+
+accepted %>%
+  arrange(issued)
+
+```
+
+
+### Published
+
+```{r published-papers}
+published = bibliography_entries(
+  here::here("bibliography", "papers.bib")
+)
+
+published %>%
+  arrange(issued)
+```
+
+
+<!-- Preprints -->
+
+```{r preprints_preprocess}
+preprints = vitae::bibliography_entries(
+  here::here("bibliography", "preprints.bib")
+)
+
+if_preprints_non_zero = nrow(preprints) > 0
+```
+
+
+```{r preprints, eval = if_preprints_non_zero}
+
+preprint_title = "### Preprints"
+
+if (nrow(preprints) == 1) preprint_title = "### Preprints"
+
+knitr::asis_output(preprint_title)
+
+preprints %>%
+  arrange(issued)
+```
