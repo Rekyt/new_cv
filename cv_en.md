@@ -169,12 +169,21 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
 # Scientific Projects
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
-2017-\textbf{now} & \parbox[t]{0.85\textwidth}{%
-\textbf{\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/free/}{\textit{F}unctional \textit{R}arity in \textit{E}cology and \textit{E}volution group} (FREE)}\hfill{\footnotesize CESAB (French Biodiversity Synthesis Centre)}\newline
+2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{\href{https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/impacts/}{IMPACTS group}}\hfill{\footnotesize CESAB (French Biodiversity Synthesis Centre)}\newline
   \empty%
   \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
 \begin{itemize}%
-\item Core member of the group as the developer of the \texttt{funrar} package that computes functional rarity indices. Author of several core papers for the group. Led 3 papers attached to the work of the group.%
+\item Synthesis group on the temporal trends and drivers of terrestrial biodiversity in France. Group member. Co-head of data management%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2017-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{\href{https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/free/}{\textit{F}unctional \textit{R}arity in \textit{E}cology and \textit{E}volution group} (FREE)}\hfill{\footnotesize CESAB}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Core member of the group as the developer of the \texttt{funrar} package that computes functional rarity indices. Author of several core papers for the group. Led 3 papers attached within the group%
 \end{itemize}%
 \end{minipage}%
 \vspace{\parsep}}\\
@@ -184,15 +193,6 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
   \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
 \begin{itemize}%
 \item Contributor to the regular meetings. Currently leading one article for the group.%
-\end{itemize}%
-\end{minipage}%
-\vspace{\parsep}}\\
-2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
-\textbf{\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/impacts/}{IMPACTS group}}\hfill{\footnotesize CESAB}\newline
-  \empty%
-  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
-\begin{itemize}%
-\item Scientific Contributor to the group. Co-head of data management for the group. First meeting November 2022.%
 \end{itemize}%
 \end{minipage}%
 \vspace{\parsep}}\\
@@ -214,7 +214,7 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
 
 ### Accepted
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c7812d15e8.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f81a883341.yaml
 :::
 
 
@@ -228,7 +228,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c7812d15e8.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c78e324be7.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f87dff1e7d.yaml
 :::
 
 
@@ -268,7 +268,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c78e324be7.yaml
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c782ecc7dac.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f8499e498c.yaml
 :::
 
 
@@ -310,7 +310,7 @@ September 2016 & \parbox[t]{0.85\textwidth}{%
 
 
 ::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/Rtmp8OBUZn/file2c78381d34e0.yaml
+C:/Users/ke76dimu/AppData/Local/Temp/RtmpwLrdeC/file16f833af3fc7.yaml
 :::
 
 
