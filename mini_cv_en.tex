@@ -1,0 +1,414 @@
+%% Template for a CV
+%% Author: Rob J Hyndman
+
+\documentclass[10pt,a4paper,]{article}
+\usepackage[scaled=0.86]{DejaVuSansMono}
+\usepackage[sfdefault,lf,t]{carlito}
+
+% Change color to blue
+\usepackage{color,xcolor}
+\definecolor{headcolor}{HTML}{990000}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true,hidelinks]{hyperref}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{geometry}
+\geometry{left=1.75cm,right=1.75cm,top=2.2cm,bottom=2cm}
+
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\date{September 2023}
+
+\definecolor{headcolor}{HTML}{1E49BF}
+\definecolor{linkscolor}{HTML}{026dbb}
+\hypersetup{colorlinks=true, linkcolor=linkscolor, filecolor=linkscolor, urlcolor=linkscolor, urlbordercolor=linkscolor}
+
+\usepackage{paralist,ragged2e,datetime}
+\usepackage[hyphens]{url}
+\usepackage{fancyhdr,enumitem,pifont}
+\usepackage[compact,small,sf,bf]{titlesec}
+
+\RaggedRight
+\sloppy
+
+% Header and footer
+\pagestyle{fancy}
+\makeatletter
+\lhead{\sf\textcolor[gray]{0.4}{Curriculum Vitae: \@name}}
+\rhead{\sf\textcolor[gray]{0.4}{\thepage}}
+\cfoot{}
+\def\headrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip-\headrulewidth}}
+\makeatother
+
+% Header box
+\usepackage{tabularx}
+
+\makeatletter
+\def\name#1{\def\@name{#1}}
+\def\info#1{\def\@info{#1}}
+\makeatother
+\newcommand{\shadebox}[3][.9]{\fcolorbox[gray]{0}{#1}{\parbox{#2}{#3}}}
+
+\usepackage{calc}
+\newlength{\headerboxwidth}
+\setlength{\headerboxwidth}{\textwidth}
+%\addtolength{\headerboxwidth}{0.2cm}
+\makeatletter
+\def\maketitle{
+\thispagestyle{plain}
+\vspace*{-1.4cm}
+\shadebox[0.9]{\headerboxwidth}{\sf\color{headcolor}\hfil
+\hbox to 0.98\textwidth{\begin{tabular}{l}
+\\[-0.3cm]
+\LARGE\textbf{\@name}
+\\[0.1cm]\large Assistant Professor\\[0.6cm]
+\normalsize\textbf{Curriculum Vitae}\\
+\normalsize September 2023
+\end{tabular}
+\hfill\hbox{\fontsize{9}{12}\sf
+\begin{tabular}{@{}rl@{}}
+\@info
+\end{tabular}}}\hfil
+}
+\vspace*{0.2cm}}
+\makeatother
+
+% Section headings
+\titlelabel{}
+\titlespacing{\section}{0pt}{1.5ex}{0.5ex}
+\titleformat*{\section}{\color{headcolor}\large\sf\bfseries}
+\titleformat*{\subsection}{\color{headcolor}\sf\bfseries}
+\titlespacing{\subsection}{0pt}{1ex}{0.5ex}
+
+% Miscellaneous dimensions
+\setlength{\parskip}{0ex}
+\setlength{\parindent}{0em}
+\setlength{\headheight}{15pt}
+\setlength{\tabcolsep}{0.15cm}
+\clubpenalty = 10000
+\widowpenalty = 10000
+\setlist{itemsep=1pt}
+\setdescription{labelwidth=1.2cm,leftmargin=1.5cm,labelindent=1.5cm,font=\rm}
+
+% Make nicer bullets
+\renewcommand{\labelitemi}{\ding{228}}
+
+\usepackage{booktabs,fontawesome5}
+%\usepackage[t1,scale=0.86]{sourcecodepro}
+
+\name{Matthias Grenié}
+\def\imagetop#1{\vtop{\null\hbox{#1}}}
+\info{%
+\raisebox{-0.05cm}{\imagetop{\faIcon{map-marker-alt}}} &  \imagetop{\begin{tabular}{@{}l@{}}Université
+Grenoble-Alpes, Laboratoire d'Écologie Alpine (LECA, UMR
+5553)\end{tabular}}\\ %
+\faIcon{home} & \href{http://rekyt.github.io}{rekyt.github.io}\\% %
+\faIcon{phone-alt} & +49 341 9733176\\%
+\faIcon{envelope} & \href{mailto:matthias.grenie@gmail.com}{\nolinkurl{matthias.grenie@gmail.com}}\\%
+\faIcon{twitter} & \href{https://twitter.com/LeNematode}{@LeNematode}\\%
+\faIcon{github} & \href{https://github.com/Rekyt}{Rekyt}\\%
+%
+\faIcon{google} & \href{https://scholar.google.com/citations?user=fZ1\_d7QAAAAJ}{fZ1\_d7QAAAAJ}\\%
+\faIcon{orcid} & \href{https://orcid.org/0000-0002-4659-7522}{0000-0002-4659-7522}\\%
+}
+
+
+%\usepackage{inconsolata}
+
+
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\hfill #1~}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \cslhangindent - \csllabelwidth}{#1}\vspace{0.8ex}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+\def\endfirstpage{\newpage}
+
+\begin{document}
+\maketitle
+
+
+\hypertarget{academic-education}{%
+\section{Academic Education}\label{academic-education}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2016-2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{PhD in Ecology}\hfill{\footnotesize École Doctorale 584 GAIA, Univ. Montpellier}\newline
+  Montpellier, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Supervised by \textbf{Pr. Françoiz Munoz} and \textbf{Dr. Cyrille Violle}\\~Title: 'Outside the norm: deviation from ecological optimality and functional originality'%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2013-2015 & \parbox[t]{0.85\textwidth}{%
+\textbf{MSc. in General Biology}\hfill{\footnotesize École Normale Supérieure de Lyon}\newline
+  Lyon, France\par%
+  \empty%
+\vspace{\parsep}}\\
+2012-2013 & \parbox[t]{0.85\textwidth}{%
+\textbf{Bsc. in General Biology}\hfill{\footnotesize École Normale Supérieure de Lyon}\newline
+  Lyon, France\par%
+  \empty%
+\vspace{\parsep}}\\
+2010-2012 & \parbox[t]{0.85\textwidth}{%
+\textbf{Prep. Classes for 'Grandes Écoles'}\hfill{\footnotesize Lycée Saint-Louis}\newline
+  Paris, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Biology, Geology, Mathematics, Physics, and Chemistry%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{academic-experience}{%
+\section{Academic Experience}\label{academic-experience}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+Oct. 2020-\textbf{present} & \parbox[t]{0.85\textwidth}{%
+\textbf{Postdoctoral Researcher}\hfill{\footnotesize German Center for Integrative Biodiversity Research (iDiv) / Leipzig University}\newline
+  Leipzig, Germany\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Supervised by \textbf{Dr. Marten Winter} on the functional biogegraphy of alien plants%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2016-2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{PhD Student}\hfill{\footnotesize Univ. Montpellier / CEFE}\newline
+  Montpellier, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Supervisors:  \textbf{Pr. François Munoz} and\textbf{Dr. Cyrille Violle}. Independent PhD funding%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+Feb. 2015-June 2015 & \parbox[t]{0.85\textwidth}{%
+\textbf{Master Intern}\hfill{\footnotesize EcoFOG}\newline
+  Kourou, French Guiana, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Supervisor: \textbf{Dr. Bruno Hérault} on intraspecific variability in tropical trees growth in function of functional traits%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+Sept. 2014-Dec. 2014 & \parbox[t]{0.85\textwidth}{%
+\textbf{Master Intern}\hfill{\footnotesize ISEM, University of Montpellier}\newline
+  Montpellier, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Supervisor: \textbf{Dr. Ophélie Ronce} on matrix population models%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+Feb. 2014-July 2014 & \parbox[t]{0.85\textwidth}{%
+\textbf{Master Intern}\hfill{\footnotesize Indiana University}\newline
+  Bloomington, IN, USA\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Supervised by \textbf{Dr. Jean-François Goût} in Michael Lynch's lab on trait motifs in the \textit{Paramecium} complex%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+June 2013-Aug. 2013 & \parbox[t]{0.85\textwidth}{%
+\textbf{Bachelor Intern}\hfill{\footnotesize Université Pierre et Marie Curie Paris 6}\newline
+  Paris, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Supervisors: \textbf{Dr. Éric Bapteste} and \textbf{Prof. Philippe Lopez} on sequence similarity networks of the metabolic pathways of \textit{Chlamydomonas reinhardtii} in function of their origin%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\newpage
+
+\hypertarget{funding}{%
+\section{Funding}\label{funding}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2023-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{Funded Project}\hfill{\footnotesize Flexpool (internal iDiv) 10k€}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Co-author and Co-PI of the project led by \textbf{Dr. Qiang Yang} on the impact of naturalized plant species on plant-pollinator networks across elevational gradients%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{Funded Project}\hfill{\footnotesize Flexpool (internal iDiv) 10k€}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Co-author and Co-PI of the project led by \textbf{Dr. Bettina Ohse} on the link between fonctionnal traits and demographic rates of trees%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+Sept. 2016 & \parbox[t]{0.85\textwidth}{%
+\textbf{Doctoral Scholarship}\hfill{\footnotesize École Normale Supérieure de Lyon}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Specific Doctoral Scholarship for Students of the ENS de Lyon%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{scientific-contributions}{%
+\section{Scientific Contributions}\label{scientific-contributions}}
+
+\faFile*~15 publications (5 as first author). \faQuoteLeft~457 citations
+(Google Scholar). \faHSquare~h-index 10 (Google Scholar). \faRProject~6
+R packages
+
+\hypertarget{selected-publications}{%
+\subsubsection{Selected Publications}\label{selected-publications}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_fundiversity_2023}{}}%
+1. \textbf{Grenié, M.}, \& Gruson, H. (2023). Fundiversity: A Modular R
+Package to Compute Functional Diversity Indices. \emph{Ecography},
+\emph{n/a}(n/a), e06585. \url{https://doi.org/10.1111/ecog.06585}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Harmonizing_2022}{}}%
+2. \textbf{Grenié, M.}, Berti, E., Carvajal‐Quintero, J., Dädlow, G. M.
+L., Sagouis, A., \& Winter, M. (2022). Harmonizing Taxon Names in
+Biodiversity Data: A Review of Tools, Databases and Best Practices.
+\emph{Methods in Ecology and Evolution}, 2041--210X.13802.
+\url{https://doi.org/10.1111/2041-210X.13802}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Loiseau_Global_2020}{}}%
+3. Loiseau, N., Mouquet, N., Casajus, N., \textbf{Grenié, M.}, Guéguen,
+M., Maitner, B., Mouillot, D., Ostling, A., Renaud, J., Tucker, C.,
+Velez, L., \ldots{} Violle, C. (2020). Global Distribution and
+Conservation Status of Ecologically Rare Mammal and Bird Species.
+\emph{Nature Communications}, \emph{11}(1, 1), 5071.
+\url{https://doi.org/10.1038/s41467-020-18779-w}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_Functional_2018}{}}%
+4. \textbf{Grenié, M.}, Mouillot, D., Villéger, S., Denelle, P., Tucker,
+C. M., Munoz, F., \& Violle, C. (2018). Functional Rarity of Coral Reef
+Fishes at the Global Scale: Hotspots and Challenges for Conservation.
+\emph{Biological Conservation}, \emph{226}, 288--299.
+\url{https://doi.org/10.1016/j.biocon.2018.08.011}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Grenie_funrar_2017}{}}%
+5. \textbf{Grenié, M.}, Denelle, P., Tucker, C. M., Munoz, F., \&
+Violle, C. (2017). Funrar: An R Package to Characterize Functional
+Rarity. \emph{Diversity and Distributions}, \emph{23}(12), 1365--1371.
+\url{https://doi.org/10.1111/ddi.12629}
+
+\hypertarget{r-packages}{%
+\subsection{R packages}\label{r-packages}}
+
+\begin{itemize}
+\item
+  \textbf{\texttt{funrar}} (creator and maintainer) \hfill\break Compute
+  functional rarity indices, major tool for the work of the FREE CESAB
+  group \hfill\break ~\href{https://doi.org/10.1111/ddi.12629}{\faFile*~
+  published paper} --
+  \href{https://cran.r-project.org/package=funrar}{\faRProject~CRAN} --
+  \href{https://github.com/Rekyt/funrar}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{ecolottery}} (co-creatore) \hfill\break efficient
+  simulation of community assembly processes, including both neutral and
+  niche processes
+  \hfill\break ~\href{https://doi.org/10.1111/2041-210X.12918}{\faFile*~
+  published paper} --
+  \href{https://cran.r-project.org/package=ecolottery}{\faRProject~CRAN}
+  -- \href{https://github.com/frmunoz/ecolottery}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{fundiversity}} (co-creator and maintainer)
+  \hfill\break compute functional diversity indices in an efficient way,
+  modular, with modern computation features out-of-the-box
+  (parallelization, memoization)
+  \hfill\break ~\href{https://doi.org/10.1111/ecog.06585}{\faFile*~
+  published paper} --
+  \href{https://cran.r-project.org/package=fundiversity}{\faRProject~CRAN}
+  -- \href{https://github.com/bisaloo/fundiversity}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{funbiogeo}} (co-creator and maintainer)
+  \hfill\break ease functional biogeography analyses, developed within
+  FREE CESAB group
+  \hfill\break ~\href{https://github.com/FRBCesab/funbiogeo}{\faGithub~GitHub}
+\item
+  \textbf{\texttt{rtaxref}} (creator and maintainer) \hfill\break access
+  the data of the French Taxonomic Reference (TAXREF) API
+  \hfill\break ~\href{https://github.com/Rekyt/rtaxref}{\faGithub~GitHub}
+\item
+  Significant contributions to other R packages:
+  \href{https://cran.r-project.org/package=taxize}{\textbf{\texttt{taxize}}}
+  (extract and standardize taxonomic data),
+  \href{https://cran.r-project.org/package=ggfortify}{\textbf{\texttt{ggfortify}}}
+  (simplified and automated plotting), et
+  \href{https://cran.r-project.org/package=traitdataform}{\textbf{\texttt{traitdataform}}}
+  (metadata writing help for functional traits)
+\end{itemize}
+
+\end{document}
