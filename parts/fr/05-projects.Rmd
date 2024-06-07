@@ -3,9 +3,11 @@
 ```{r scientific-projects}
 tibble::tribble(
   ~Project, ~Period, ~Where, ~Why,
+   "\\href{https://www.obsgession.eu}{Projet Européen OBSGESSION}", "2024-\\textbf{présent}", "Europe", "Projet européen regroupant 11 partenaires institutionnels différents pour améliorer la biologie de la conservation en mobilisant notamment la télédétection et l'inférence causale.",
+   "\\href{https://www.idiv.de/en/sfragment.html}{Groupe sDiv sFragment}", "2024-\\textbf{présent}", "sDiv", "groupe de synthèse 'jeune chercheurs' sDiv pour tester relation entre fragmentation et diversité fonctionnelle des oiseaux et des arbres. Membre en tant qu'expert sur les traits et la diversité fonctionnelle.",
   "Groupe \\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/impacts/}{IMPACTS}", "2022-\\textbf{présent}", "Centre de Synthèse et d'Analyse sur la Biodiversité (CESAB)", "Groupe de synthèse sur le suivi temporel de la biodiversité terrestre en France\\break Membre du groupe, en charge de la gestion de données\\break Première réunion en présentiel : mars 2023",
   "Groupe \\href{https://glonaf.org/}{Global Naturalized Alien Flora}", "2021-\\textbf{présent}", "GloNAF", "Groupe européen sur les invasions végétales \\textit{via} la base GloNAF \\break Contributeur aux réunions bisannuelles du groupe \\break Premier auteur d'un manuscrit pour le groupe -- Co-auteur d'un manuscrit",
-  "\\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/free/}{Groupe FREE}", "2017-\\textbf{présent}", "CESAB", "Groupe de synthèse sur la rareté fonctionnelle en écologie and évolution \\break Membre co-fondateur du groupe \\break Premier auteur de 3 articles liés au groupe -- Co-auteur de 4 articles"
+  "\\href{https://www.fondationbiodiversite.fr/la-frb-en-action/programmes-et-projets/le-cesab/free-2/}{Groupe FREE2}", "2017-\\textbf{présent}", "CESAB", "Groupe de synthèse sur la rareté fonctionnelle en écologie and évolution \\break Membre co-fondateur du groupe \\break Premier auteur de 3 articles liés au groupe -- Co-auteur de 4 articles"
 ) %>% 
   detailed_entries(
     Project, Period, with = Where, where = "", why = Why, .protect = FALSE

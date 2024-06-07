@@ -3,17 +3,10 @@
 ```{r academic-experience}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Chercheur Postdoctoral", "oct. 2020 - \\textbf{présent}", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Allemagne",
+  "Maître de Conférences", "2023 - \\textbf{présent}", "Université Grenoble Alpes (UGA), Laboratoire d'Écologie Alpine (LECA)", "Grenoble, France", "associé à la faculté de Pharmacie, enseignant les statistiques appliquées",
+  "Chercheur Postdoctoral", "2020 - 2023", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Allemagne",
   "Supervisé par \\textbf{Dr. Marten Winter} sur la biogéographie fonctionnelle des plantes introduites",
-  "Doctorant", "2016-2020", "Université de Montpellier", "Montpellier, France", "Directeurs: François Munoz et Cyrille Violle. Contrat doctoral spécifique normalien. Sur la rareté fonctionnelle et l'écologie fonctionnelle des communautés",
-  "Stage de Master 2", "févr. 2015 - juin 2015", "EcoFOG", "Kourou, Guyane Française, France",
-  "Encadrant: \\textbf{Dr. Bruno Hérault} sur la variabilité intraspécifique de croissance des arbres tropicaux en fonction de leurs traits fonctionnels",
-  "Stage de Master 2", "sept. 2014 - déc. 2014", "ISEM, Université de Montpellier", "Montpellier, France",
-    "Encadrante: \\textbf{Dr. Ophélie Ronce} sur la prédiction de l'adaptation au changement climatique des arbres en utilisant des modèles de génétique quantitative de populations structurées en stade",
-  "Stage de Master 2", "févr. 2014 - juill. 2014", "Indiana University", "Bloomington, IN, États-Unis",
-    "Encadrant: \\textbf{Dr. Jean-François Goût} dans l'équipe du \\textbf{Pr. Michael Lynch} sur les motifs génomiques au sein du complexe \\textit{Paramecium}",
-  "Stage de L3", "juin 2013 - août 2013", "Université Pierre et Marie Curie Paris 6", "Paris, France",
-  "Encadrants: \\textbf{Dr. Éric Bapteste} et \\textbf{Prof. Philippe Lopez} sur réseaux de similarités de séquences en fonction de l'origine évolutive des voies métaboliques chez \\textit{Chlamydomonas reinhardtii}"
+  "Doctorant", "2016-2020", "Université de Montpellier", "Montpellier, France", "Directeurs: \\textbf{Pr. François Munoz} et \\textbf{Dr. Cyrille Violle}. Contrat doctoral spécifique normalien. Sur la rareté fonctionnelle et l'écologie fonctionnelle des communautés"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
 ```

@@ -3,10 +3,11 @@
 ```{r supervision}
 tibble::tribble(
   ~what, ~when, ~with,
-  "Membre du comité de thèse de \\href{https://www.idiv.de/en/profile/1248.html}{Rachel Souza Fereira}", "2022-\\textbf{présent}", "",
+  "Membre du comité de thèse de \\href{https://orcid.org/0000-0001-6931-2879}{Marianne Tzivanopoulos}", "sept. 2023-\\textbf{présent}", "",
+  "Membre du comité de thèse de \\href{https://www.idiv.de/en/profile/1248.html}{Rachel Souza Fereira}", "2022-2023", "",
   "Co-encadrement stage de M1", "avr. 2019 - juin 2019",
   "Nathan Mazet, stage sur les stratégies alimentaires des oiseaux à l'échelle globale, encadrant principal: Pr. Jean-Yves Barnagaud",
-  "Encadrement stage de M1", "avr. 2018 - mai 2018", "Charlotte Guérineau, stage sur la rareté fonctionnelle de différents groupes taxonomiques (oiseaux, plantes, poissons, et bactéries du sol) en France"
+  "Encadrement stage de M1", "avr. 2018 - mai 2018", "Charlotte Guérineau, stage sur la rareté fonctionnelle de différents groupes taxonomiques en France"
 ) %>%
   vitae::brief_entries(what, when, with, .protect = FALSE)
 ```

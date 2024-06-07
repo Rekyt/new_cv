@@ -1,22 +1,28 @@
-# Expérience d'enseignement
-
-J'ai enseigné ~130 heures en écologie, mesures de la biodiversité, et programmation R, de la L2 au doctorat.
+# Enseignement
 
 Je suis formateur certifié de l'association [*The Carpentries*](https://carpentries.org/) formant les scientifiques à la programmation.
 
 Au CEFE et à iDiv j'ai co-fondé des groupes d'utilisateur$\cdotp$rices de R pour encourager une communauté de pratiques de R.
 \newline J'y ai organisé et présenté plusieurs ateliers d'une heure sur des sujets liés à R.
 
-| Nom du Cours                          |Type de Cours| Année(s) | Niveau         |Durée (éq.TD)|
-|---------------------------------------|-------------|----------|----------------|-------------|
-| Statistiques Descriptives avec R (UM) | TP | 2016, 2017 | L2 | 50h |
-| Biogéographie Fonctionelle avec R (UM, [support de cours](https://github.com/Rekyt/functional_biogeo_practical)) | TP | 2017, 2018 | M2 | 8h |
-| Travaux Pratiques d'Écologie Fonctionnelle (UM) | TP | 2018 | L3 | 15h |
-| Cours Invité sur les facettes de la biodiversité (UL) | CM | 2021, 2022 | M1 | 6h |
-| Travaux Pratiques sur les facettes de la biodiversité avec R (UL, [support de cours](https://rekyt.github.io/biodiversity_facets_tutorial/)) | TP | 2021, 2022 | M1 | 12h |
-| Projet de groupe sur les facettes de la biodiversité (UL) | TD | 2021 | M1 | 20h |
-| Introduction à git et GitHub (UL, [support de cours](https://emilio-berti.github.io/idiv-git-introduction)) | CM + TP | 2022 | Masters, Doctorant$\cdotp$es, Postdoctorant$\cdotp$es | 10h |
-| Formation diversité et rareté fonctionnelle (au CESAB, [support de cours](https://frbcesab.github.io/workshop-free/)) | CM + TP | 2022 | Masters, Doctorant$\cdotp$es, Postdoctorant$\cdotp$es, Chercheur$\cdotp$euses | 4h |
-| Cours Invité sur l'harmonisation taxonomique à [l'école d'hiver de NFDI4Biodiversity sur la gestion de données en écologie & évolution](https://www.nfdi4biodiversity.org/en/winterschool/) | CM | 2022 | Masters, Doctorant$\cdotp$es, Postdoctorant$\cdotp$es | 2h |
+```{r teaching-detailed}
+tribble(
+  ~Cours, ~Annee, ~Niveau, ~Institution_Volume, ~Details,
+  "Mathématiques/Statistiques","2023-2024 (S1)", "L1 Biotechnologies (120 étudiant⋅es)", "47h (CM+TD) UGA", "Responsable d'UE, gestion des vacataires (3). Rappels de statistiques descriptives, introduction aux statistiques inférentielles et à R.",
+  "Mathématiques/Statistiques 2","2023-2024 (S2)", "L1 Biotechnologies (120 étudiant⋅es)", "24h (CM+TD) UGA", "Responsable d'UE, gestion des vacataires (3). Test non-paramétriques, tests d'ajustements.",
+  "Biomathématiques/Statistiques 2", "2023-2024 (S2)", "L3 Biotechnologies (70 étudiant⋅es)", "35h (CM+TD) UGA", "Créateur et Responsable d'UE, gestion des vacataires (1). UE d'analyse de données basé sur l'exemple",
+  "Outils Méthodologiques pour l'Analyse de Données en Santé", "2023-2024 (S2)", "M1 Ingénierie de la Santé (20 étudiant⋅es)", "25h (CM+TD) UGA", "Co-responsable et co-créateur de l'UE. UE de statistiques avancées. Introduction aux statistiques bayésiennes et la visualisation de données en santé, projet de statistiques",
+  "Contrôle Qualité", "2023-2024 (S1)", "3ème année de Pharmacie (100 étudiant⋅es)", "25h (TD)", "Responsable réalisation du projet de statistiques. Analyse de données en pratique.",
+  "Macroecology and macroevolution under global changes", "2023", "Master 'Biodiversity, Ecology and Evolution' (15 étudiant⋅es)", "2h (CM) UL", "Intervenant de cours sur l'harmonisation taxonomique",
+  "\\href{https://www.nfdi4biodiversity.org/en/winterschool/}{École d'hiver de NFDI4Biodiversity sur la gestion de données en écologie et évolution}", "2022", "Masters, Doctorant⋅es, Post-doctorant⋅es (15 étudiant⋅es)", "2h (CM)", "Chargé de cours invité sur l'harmonisation taxonomique",
+  "Formation diversité et rareté fonctionnelle", "2022", "Masters, Doctorant⋅es, Post-doctorant⋅e, Chercheur⋅euses (20 personnes)", "4h (CM+TD) CESAB", "Co-organisateur d'une demie-journée de formation sur la diversité et la rareté fonctionnelle avec le soutien du Centre d'Analyse et de Synthèse sur la Biodiversité (CESAB) à Montpellier. \\href{https://frbcesab.github.io/workshop-free/}{support de cours}",
+  "Introduction à git et GitHub", "2022", "Masters, Doctorant⋅es, Post-doctorant⋅e, Chercheur⋅euses (20 personnes)", "10h (CM+TD) UL", "Co-organisateur d'une formation d'une journée d'introduction à git et GitHub pour la recherche. \\href{https://emilio-berti.github.io/idiv-git-introduction}{support de cours}",
+  "Macroecology and macroevolution under global changes", "2021, 2022", "Master 'Biodiversity, Ecology and Evolution' (20 étudiant⋅es)", "38h (CM+TD+TP) UL", "Chargé de cours les facettes de la biodiversité (taxonomique, phylogénétique et fonctionnelle). Montage et encadrement de séances de travaux pratiques sur R pour calculer ces indices. Encadrement de travaux de groupes en rapport avec les séances de cours.",
+  "Écologie Fonctionnelle", "2018", "Licence 3 — Biologie-Écologie (60 étudiant⋅es)", "15h (TP) UL", "Chargé de travaux pratiques expérimentaux sur l'écologie fonctionnelle. Encadrement des projets de groupes associés",
+  "Diversité Fonctionnelle", "2017, 2018", "Master Biologie, Écologie, Évolution", "8h (TD) UM", "Intervenant en cours pour une séance pratique sur la biogéographie fonctionnelle avec R. \\href{https://github.com/Rekyt/functional_biogeo_practical}{support de cours}",
+  "Statistiques Descriptives", "2016, 2017", "Licence 2 – Sciences de la vie", "50h (TD) UM", "Chargé de TD de statistiques descriptives sur R"
+) %>% 
+  detailed_entries(Cours, Annee, Niveau, Institution_Volume, why = Details, .protect = FALSE)
+```
 
-**UM**: Université de Montpellier ; **UL**: Université de Leipzig
+**UGA** : Université Grenoble Alpes ; **UL** : Université de Leipzig ; **UM**: Université de Montpellier

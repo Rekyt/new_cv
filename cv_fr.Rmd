@@ -1,9 +1,9 @@
 ---
 name: Matthias
 surname: Grenié
-position: "Chercheur Postdoctoral"
-address: "German Centre for Integrative Biodversity Research (iDiv), Halle-Jena-Leipzig"
-phone: +49 341 9733176
+position: "Maître de conférences"
+address: "Université Grenoble Alpes (UGA), Laboratoire d'Écologie Alpine (LECA)"
+phone: +33 4 76 51 41 15
 csl: "csl/apa-6.csl"
 orcid: 0000-0002-4659-7522
 www: rekyt.github.io
@@ -40,10 +40,10 @@ library("dplyr")
 ```{r child-experience, child="parts/fr/02-academic-experience.Rmd"}
 ```
 
-\newpage
-
 ```{r child-supervision, child="parts/fr/03-supervision.Rmd"}
 ```
+
+\newpage
 
 ```{r child-service, child="parts/fr/04-service.Rmd"}
 ```
@@ -51,14 +51,11 @@ library("dplyr")
 ```{r child-projects, child="parts/fr/05-projects.Rmd"}
 ```
 
-
 ```{r child-funding, child="parts/fr/06-funding.Rmd"}
 ```
 
 ```{r child-contributions, child="parts/fr/07-00-contributions.Rmd"}
 ```
-
-\newpage
 
 ```{r child-teaching, child="parts/fr/08-teaching.Rmd"}
 ```

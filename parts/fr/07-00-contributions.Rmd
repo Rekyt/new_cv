@@ -1,6 +1,6 @@
 # Contributions scientifiques
 
-\faFile*&nbsp;15 publications (5 en premier auteur). \faQuoteLeft&nbsp;457 citations (Google Scholar). \faHSquare&nbsp;h-index 10 (Google Scholar). \faRProject&nbsp;6 paquets R
+\faFile*&nbsp;16 publications (5 en premier auteur). \faQuoteLeft&nbsp;764 citations (Google Scholar). \faHSquare&nbsp;h-index 11 (Google Scholar). \faRProject&nbsp;6 paquets R
 
 ```{r child="07-01-publications.Rmd"}
 ```
