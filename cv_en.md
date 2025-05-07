@@ -1,18 +1,18 @@
 ---
 name: Matthias
 surname: Grenié
-position: Postdoctoral Researcher
-address: German Centre for Integrative Biodversity Research (iDiv), Halle-Jena-Leipzig
-phone: +49 341 9733176
+position: Assistant Professor
+address: Université Grenoble Alpes (UGA), Laboratoire d'Écologie Alpine (LECA)
+phone: +33 4 76 51 41 15
 csl: csl/apa-6.csl
 orcid: 0000-0002-4659-7522
 www: rekyt.github.io
-email: matthias.grenie@idiv.de
+email: matthias.grenie@univ-grenoble-alpes.fr
 twitter: LeNematode
 github: Rekyt
 scholar: fZ1_d7QAAAAJ
 researchgate: Matthias-Grenie
-date: April 2023
+date: May 2024
 output:
   vitae::hyndman:
     keep_tex: yes
@@ -23,6 +23,11 @@ header-includes:
 - \definecolor{linkscolor}{HTML}{026dbb}
 - \hypersetup{colorlinks=true, linkcolor=linkscolor, filecolor=linkscolor, urlcolor=linkscolor,
   urlbordercolor=linkscolor}
+bibliography:
+  ffc8572910bbbf53494bff43aef327c3: C:/Users/greniem/AppData/Local/Temp/RtmpEHWZFA/file367430b8589b.yaml
+  c254fb8941ede3241321a2eb64188a05: C:/Users/greniem/AppData/Local/Temp/RtmpEHWZFA/file36747182364d.yaml
+  19236448c98ed3c3f0354a7b67ef58d9: C:/Users/greniem/AppData/Local/Temp/RtmpEHWZFA/file367442232427.yaml
+  e8e5b0644796f5cf65fc2be78a8ed8d4: C:/Users/greniem/AppData/Local/Temp/RtmpEHWZFA/file36744797cdf.yaml
 nocite: '@Munoz_ecological_2023, @Grenie_funrar_2017, @Violle_Common_2017, @Munoz_ecolottery_2018,
   @Grenie_Functional_2018, @Barnagaud_Functional_2019, @Joffard_Effect_2019, @Grenie_prediction_2020,
   @Loiseau_Global_2020, @Mouillot_dimensionality_2021, @Grenie_Harmonizing_2022, @Gauzere_functional_2022,
@@ -31,7 +36,6 @@ nocite: '@Munoz_ecological_2023, @Grenie_funrar_2017, @Violle_Common_2017, @Muno
   @Salmon_Why_2022'
 
 ---
-
 
 
 
@@ -73,7 +77,16 @@ nocite: '@Munoz_ecological_2023, @Grenie_funrar_2017, @Violle_Common_2017, @Muno
 # Academic Experience
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
-Oct. 2020-\textbf{present} & \parbox[t]{0.85\textwidth}{%
+Sept. 2023-\textbf{present} & \parbox[t]{0.85\textwidth}{%
+\textbf{Assistant Professor}\hfill{\footnotesize Université Grenoble Alpes (UGA), Laboratoire d'Écologie Alpine (LECA)}\newline
+  Grenoble, France\par%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Appointed at the Pharmacy Faculty to teach Applied Statistics%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
+Oct. 2020-Aug. 2023 & \parbox[t]{0.85\textwidth}{%
 \textbf{Postdoctoral Researcher}\hfill{\footnotesize German Center for Integrative Biodiversity Research (iDiv) / Leipzig University}\newline
   Leipzig, Germany\par%
   \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
@@ -129,12 +142,16 @@ June 2013-Aug. 2013 & \parbox[t]{0.85\textwidth}{%
 \vspace{\parsep}}\\
 \end{longtable}
 
+\newpage
+
 
 # Scientific Supervision
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
-2022-\textbf{present} & \parbox[t]{0.85\textwidth}{%
-\textbf{Member of the PhD Adivsory Committee of \href{https://www.idiv.de/en/profile/1248.html}{Rachel Souza Fereira}}\\[-0.1cm]{\footnotesize }}\\[0.4cm]
+Sept. 2023-\textbf{present} & \parbox[t]{0.85\textwidth}{%
+\textbf{Member of the PhD Advisory Committee of \href{https://orcid.org/0000-0001-6931-2879}{Marianne Tzivanopoulos}}\\[-0.1cm]{\footnotesize }}\\[0.4cm]
+2022-2023 & \parbox[t]{0.85\textwidth}{%
+\textbf{Member of the PhD Advisory Committee of \href{https://www.idiv.de/en/profile/1248.html}{Rachel Souza Fereira}}\\[-0.1cm]{\footnotesize }}\\[0.4cm]
 Apr. 2019 - June 2019 & \parbox[t]{0.85\textwidth}{%
 \textbf{Co-supervised First year Master's Student Nathan Mazet}\\[-0.1cm]{\footnotesize Internship on global dietary strategies for birds, main supervisor: \textbf{Pr. Jean-Yves Barnagaud}}}\\[0.4cm]
 Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
@@ -149,11 +166,11 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
 \textbf{Software reviewer for rOpenSci}\\[-0.1cm]{\footnotesize For the \href{https://github.com/ropensci/software-review/issues/505}{\texttt{npi} package}}}\\[0.4cm]
 2017-\textbf{now} & \parbox[t]{0.85\textwidth}{%
 \textbf{Reviewer for Scientific Journals (\href{https://publons.com/wos-op/researcher/1466931/matthias-grenie}{see Publons profile})}\\[-0.1cm]{\footnotesize For \textit{Ecology Letters}, \textit{Functional Ecology}, \textit{Biological Reviews}, \textit{PeerJ}, \textit{Biological Conservation}, \textit{New Phytologist}, \textit{Journal of Applied Ecology}, and \textit{Journal of Biogeography}}}\\[0.4cm]
-2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+2022-2023 & \parbox[t]{0.85\textwidth}{%
 \textbf{Co-founder and active member of \textit{iCode}}\\[-0.1cm]{\footnotesize Coding club of iDiv. Group for exchanges about R and programming practices at iDiv}}\\[0.4cm]
-2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+2022-2023 & \parbox[t]{0.85\textwidth}{%
 \textbf{Post-doctoral researchers representative (130 people)}\\[-0.1cm]{\footnotesize \href{https://www.idiv.de/en/council.html}{\textbf{iDiv Council}}, the main advisory council of iDiv}}\\[0.4cm]
-2021-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+2021-2023 & \parbox[t]{0.85\textwidth}{%
 \textbf{Organizer of the biweekly sDiv lab meetings}\\[-0.1cm]{\footnotesize sDiv team}}\\[0.4cm]
 2018-2020 & \parbox[t]{0.85\textwidth}{%
 \textbf{Representative of PhD students (70 people)}\\[-0.1cm]{\footnotesize CEFE lab council, the main governing body of the lab}}\\[0.4cm]
@@ -169,6 +186,15 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
 # Scientific Projects
 
 \begin{longtable}{@{\extracolsep{\fill}}ll}
+2024-\textbf{now} & \parbox[t]{0.85\textwidth}{%
+\textbf{\href{https://www.idiv.de/en/sfragment.html}{sFragment sDiv group}}\hfill{\footnotesize sDiv}\newline
+  \empty%
+  \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item early career researchers' sDiv synthesis group to test the relationship between fragmentation and functional diversity of birds and trees. Group member as expert on functional traits%
+\end{itemize}%
+\end{minipage}%
+\vspace{\parsep}}\\
 2022-\textbf{now} & \parbox[t]{0.85\textwidth}{%
 \textbf{\href{https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/impacts/}{IMPACTS group}}\hfill{\footnotesize CESAB (French Biodiversity Synthesis Centre)}\newline
   \empty%
@@ -216,7 +242,7 @@ Apr. 2018 - May 2018 & \parbox[t]{0.85\textwidth}{%
   \empty%
   \vspace{0.1cm}\begin{minipage}{0.7\textwidth}%
 \begin{itemize}%
-\item Co-author and Co-PI of the project led by \textbf{Dr. Bettina Ohse} on the link between fonctionnal traits and demographic rates of trees%
+\item Co-author and Co-PI of the project led by \textbf{Dr. Bettina Ohse} on the link between functional traits and demographic rates of trees%
 \end{itemize}%
 \end{minipage}%
 \vspace{\parsep}}\\
@@ -244,16 +270,14 @@ Sept. 2016 & \parbox[t]{0.85\textwidth}{%
 
 
 ### Accepted
-::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file23385acd3ff7.yaml
+::: {#refs-ffc8572910bbbf53494bff43aef327c3}
 :::
 
 
 ### Published
 
 
-::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file23383d581c7b.yaml
+::: {#refs-c254fb8941ede3241321a2eb64188a05}
 :::
 
 
@@ -293,8 +317,7 @@ C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file23383d581c7b.yaml
 ## Conference Proceedings
 
 
-::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file233819e06723.yaml
+::: {#refs-19236448c98ed3c3f0354a7b67ef58d9}
 :::
 
 
@@ -335,11 +358,8 @@ Sep 2016 & \parbox[t]{0.85\textwidth}{%
 ## Blog posts
 
 
-::: {#bibliography}
-C:/Users/ke76dimu/AppData/Local/Temp/RtmpCCDMzY/file2338546b3c6.yaml
+::: {#refs-e8e5b0644796f5cf65fc2be78a8ed8d4}
 :::
-
-\newpage
 
 
 # Teaching Experience

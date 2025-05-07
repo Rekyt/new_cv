@@ -3,7 +3,8 @@
 ```{r supervision}
 tibble::tribble(
   ~what, ~when, ~with,
-  "Member of the PhD Adivsory Committee of \\href{https://www.idiv.de/en/profile/1248.html}{Rachel Souza Fereira}", "2022-\\textbf{present}", "",
+  "Member of the PhD Advisory Committee of \\href{https://orcid.org/0000-0001-6931-2879}{Marianne Tzivanopoulos}", "Sept. 2023-\\textbf{present}", "",
+  "Member of the PhD Advisory Committee of \\href{https://www.idiv.de/en/profile/1248.html}{Rachel Souza Fereira}", "2022-2023", "",
   "Co-supervised First year Master's Student Nathan Mazet", "Apr. 2019 - June 2019",
   "Internship on global dietary strategies for birds, main supervisor: \\textbf{Pr. Jean-Yves Barnagaud}",
   "Supervised First year Master's Student Charlotte Guérineau", "Apr. 2018 - May 2018", "Internship on functional rarity of diverse taxonomic groups (birds, plants, fishes, and soil bacteria) over France"

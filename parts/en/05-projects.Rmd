@@ -3,6 +3,7 @@
 ```{r sci-projects}
 tibble::tribble(
   ~Project, ~Period, ~Where, ~Why,
+  "\\href{https://www.idiv.de/en/sfragment.html}{sFragment sDiv group}", "2024-\\textbf{now}", "sDiv", "early career researchers' sDiv synthesis group to test the relationship between fragmentation and functional diversity of birds and trees. Group member as expert on functional traits",
   "\\href{https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/impacts/}{IMPACTS group}", "2022-\\textbf{now}", "CESAB (French Biodiversity Synthesis Centre)", "Synthesis group on the temporal trends and drivers of terrestrial biodiversity in France. Group member. Co-head of data management",
   "\\href{https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/free/}{\\textit{F}unctional \\textit{R}arity in \\textit{E}cology and \\textit{E}volution group} (FREE)", "2017-\\textbf{now}", "CESAB", "Core member of the group as the developer of the \\texttt{funrar} package that computes functional rarity indices. Author of several core papers for the group. Led 3 papers attached within the group",
   "\\href{https://glonaf.org/}{Global Naturalized Alien Flora} (GloNAF)", "2021-\\textbf{now}", "GloNAF", "Contributor to the regular meetings. Currently leading one article for the group"

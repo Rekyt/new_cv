@@ -3,7 +3,8 @@
 ```{r academic-experience}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Postdoctoral Researcher", "Oct. 2020-\\textbf{present}", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Germany",
+  "Assistant Professor", "Sept. 2023-\\textbf{present}", "Université Grenoble Alpes (UGA), Laboratoire d'Écologie Alpine (LECA)", "Grenoble, France", "Appointed at the Pharmacy Faculty to teach Applied Statistics",
+  "Postdoctoral Researcher", "Oct. 2020-Aug. 2023", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Germany",
   c("Supervised by \\textbf{Dr. Marten Winter} on the functional biogegraphy of alien plants"),
   "PhD Student", "2016-2020", "Univ. Montpellier / CEFE", "Montpellier, France", "Supervisors:  \\textbf{Pr. François Munoz} and\\textbf{Dr. Cyrille Violle}. Independent PhD funding",
   "Master Intern", "Feb. 2015-June 2015", "EcoFOG", "Kourou, French Guiana, France",
