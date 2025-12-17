@@ -3,10 +3,10 @@
 ```{r academic-experience}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Maître de Conférences", "2023 - \\textbf{présent}", "Université Grenoble Alpes (UGA), Laboratoire d'Écologie Alpine (LECA)", "Grenoble, France", "associé à la faculté de Pharmacie, enseignant les statistiques appliquées",
+  "Maître de conférences", "2023 - \\textbf{présent}", "Université Grenoble Alpes (UGA), Laboratoire d'Écologie Alpine (LECA)", "Grenoble, France", "associé à la faculté de Pharmacie, enseignant les statistiques appliquées",
   "Chercheur Postdoctoral", "2020 - 2023", "German Center for Integrative Biodiversity Research (iDiv) / Leipzig University", "Leipzig, Allemagne",
-  "Supervisé par \\textbf{Dr. Marten Winter} sur la biogéographie fonctionnelle des plantes introduites",
-  "Doctorant", "2016-2020", "Université de Montpellier", "Montpellier, France", "Directeurs: \\textbf{Pr. François Munoz} et \\textbf{Dr. Cyrille Violle}. Contrat doctoral spécifique normalien. Sur la rareté fonctionnelle et l'écologie fonctionnelle des communautés"
+  "Avec le \\textbf{Dr. Marten Winter} - biogéographie fonctionnelle des plantes introduites",
+  "Doctorant", "2016-2020", "Université de Montpellier", "Montpellier, France", "Directeurs : \\textbf{Pr. François Munoz} et \\textbf{Dr. Cyrille Violle}. Contrat doctoral spécifique normalien"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, why = Why, .protect = FALSE)
 ```
